@@ -1,0 +1,19 @@
+AI & Machine Learning
+Analytics
+Application Integration
+Blockchain
+Business Applications
+Compute
+Containers & Orchestration
+Database
+DevOps & Developer Tools
+IoT
+Management & Governance
+Migration & Transfer
+Monitoring & Logging
+Networking
+Quantum
+Robotics / AR-VR
+Security & Identity
+Serverless & Event-driven
+Storage

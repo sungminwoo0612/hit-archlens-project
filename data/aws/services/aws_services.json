@@ -11,8 +11,8 @@
     "metadata": {}
   },
   {
-    "service_code": "acm",
-    "service_name": "AWS ACM",
+    "service_code": "accessanalyzer",
+    "service_name": "AWS ACCESSANALYZER",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -33,8 +33,8 @@
     "metadata": {}
   },
   {
-    "service_code": "amplifybackend",
-    "service_name": "AWS AMPLIFYBACKEND",
+    "service_code": "amplify",
+    "service_name": "AWS AMPLIFY",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -55,8 +55,8 @@
     "metadata": {}
   },
   {
-    "service_code": "accessanalyzer",
-    "service_name": "AWS ACCESSANALYZER",
+    "service_code": "acm",
+    "service_name": "AWS ACM",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -66,8 +66,19 @@
     "metadata": {}
   },
   {
-    "service_code": "amplify",
-    "service_name": "AWS AMPLIFY",
+    "service_code": "account",
+    "service_name": "AWS ACCOUNT",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "aws-global",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "amplifybackend",
+    "service_name": "AWS AMPLIFYBACKEND",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -99,19 +110,8 @@
     "metadata": {}
   },
   {
-    "service_code": "account",
-    "service_name": "AWS ACCOUNT",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "aws-global",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "appconfig",
-    "service_name": "AWS APPCONFIG",
+    "service_code": "apigatewaymanagementapi",
+    "service_name": "AWS APIGATEWAYMANAGEMENTAPI",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -121,8 +121,8 @@
     "metadata": {}
   },
   {
-    "service_code": "apigatewaymanagementapi",
-    "service_name": "AWS APIGATEWAYMANAGEMENTAPI",
+    "service_code": "appconfig",
+    "service_name": "AWS APPCONFIG",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -165,8 +165,8 @@
     "metadata": {}
   },
   {
-    "service_code": "appflow",
-    "service_name": "AWS APPFLOW",
+    "service_code": "appintegrations",
+    "service_name": "AWS APPINTEGRATIONS",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -176,8 +176,8 @@
     "metadata": {}
   },
   {
-    "service_code": "appintegrations",
-    "service_name": "AWS APPINTEGRATIONS",
+    "service_code": "appflow",
+    "service_name": "AWS APPFLOW",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -242,17 +242,6 @@
     "metadata": {}
   },
   {
-    "service_code": "appstream",
-    "service_name": "AWS APPSTREAM",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "apprunner",
     "service_name": "AWS APPRUNNER",
     "category": null,
@@ -264,30 +253,8 @@
     "metadata": {}
   },
   {
-    "service_code": "apptest",
-    "service_name": "AWS APPTEST",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "appsync",
-    "service_name": "AWS APPSYNC",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "arc-region-switch",
-    "service_name": "AWS ARC-REGION-SWITCH",
+    "service_code": "appstream",
+    "service_name": "AWS APPSTREAM",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -319,8 +286,19 @@
     "metadata": {}
   },
   {
-    "service_code": "athena",
-    "service_name": "AWS ATHENA",
+    "service_code": "arc-region-switch",
+    "service_name": "AWS ARC-REGION-SWITCH",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "appsync",
+    "service_name": "AWS APPSYNC",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -332,6 +310,17 @@
   {
     "service_code": "auditmanager",
     "service_name": "AWS AUDITMANAGER",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "athena",
+    "service_name": "AWS ATHENA",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -407,8 +396,19 @@
     "metadata": {}
   },
   {
-    "service_code": "batch",
-    "service_name": "AWS BATCH",
+    "service_code": "bcm-dashboards",
+    "service_name": "AWS BCM-DASHBOARDS",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "bcm-data-exports",
+    "service_name": "AWS BCM-DATA-EXPORTS",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -429,8 +429,8 @@
     "metadata": {}
   },
   {
-    "service_code": "bcm-data-exports",
-    "service_name": "AWS BCM-DATA-EXPORTS",
+    "service_code": "batch",
+    "service_name": "AWS BATCH",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -484,8 +484,8 @@
     "metadata": {}
   },
   {
-    "service_code": "bedrock-agentcore-control",
-    "service_name": "AWS BEDROCK-AGENTCORE-CONTROL",
+    "service_code": "bedrock-agentcore",
+    "service_name": "AWS BEDROCK-AGENTCORE",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -495,8 +495,8 @@
     "metadata": {}
   },
   {
-    "service_code": "bedrock-agentcore",
-    "service_name": "AWS BEDROCK-AGENTCORE",
+    "service_code": "bedrock-agentcore-control",
+    "service_name": "AWS BEDROCK-AGENTCORE-CONTROL",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -638,6 +638,17 @@
     "metadata": {}
   },
   {
+    "service_code": "chime-sdk-meetings",
+    "service_name": "AWS CHIME-SDK-MEETINGS",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
     "service_code": "chime-sdk-messaging",
     "service_name": "AWS CHIME-SDK-MESSAGING",
     "category": null,
@@ -649,8 +660,8 @@
     "metadata": {}
   },
   {
-    "service_code": "chime-sdk-meetings",
-    "service_name": "AWS CHIME-SDK-MEETINGS",
+    "service_code": "cloudfront-keyvaluestore",
+    "service_name": "AWS CLOUDFRONT-KEYVALUESTORE",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -682,30 +693,19 @@
     "metadata": {}
   },
   {
-    "service_code": "cloudfront-keyvaluestore",
-    "service_name": "AWS CLOUDFRONT-KEYVALUESTORE",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "cloudhsm",
-    "service_name": "AWS CLOUDHSM",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "cloudcontrol",
     "service_name": "AWS CLOUDCONTROL",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "cleanroomsml",
+    "service_name": "AWS CLEANROOMSML",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -737,8 +737,8 @@
     "metadata": {}
   },
   {
-    "service_code": "cleanroomsml",
-    "service_name": "AWS CLEANROOMSML",
+    "service_code": "cloudhsm",
+    "service_name": "AWS CLOUDHSM",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -836,17 +836,6 @@
     "metadata": {}
   },
   {
-    "service_code": "codebuild",
-    "service_name": "AWS CodeBuild",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Project",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "cloudwatch",
     "service_name": "Amazon CloudWatch",
     "category": null,
@@ -854,6 +843,17 @@
     "description": null,
     "regions": "us-east-1",
     "main_resource_example": "Alarm",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "codebuild",
+    "service_name": "AWS CodeBuild",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Project",
     "secondary_examples": [],
     "metadata": {}
   },
@@ -902,8 +902,8 @@
     "metadata": {}
   },
   {
-    "service_code": "codeguru-security",
-    "service_name": "AWS CODEGURU-SECURITY",
+    "service_code": "codeguru-reviewer",
+    "service_name": "AWS CODEGURU-REVIEWER",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -913,8 +913,8 @@
     "metadata": {}
   },
   {
-    "service_code": "codeguru-reviewer",
-    "service_name": "AWS CODEGURU-REVIEWER",
+    "service_code": "codeguru-security",
+    "service_name": "AWS CODEGURU-SECURITY",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -946,8 +946,8 @@
     "metadata": {}
   },
   {
-    "service_code": "codestar-notifications",
-    "service_name": "AWS CODESTAR-NOTIFICATIONS",
+    "service_code": "codestar-connections",
+    "service_name": "AWS CODESTAR-CONNECTIONS",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -957,8 +957,8 @@
     "metadata": {}
   },
   {
-    "service_code": "codestar-connections",
-    "service_name": "AWS CODESTAR-CONNECTIONS",
+    "service_code": "codestar-notifications",
+    "service_name": "AWS CODESTAR-NOTIFICATIONS",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1023,6 +1023,17 @@
     "metadata": {}
   },
   {
+    "service_code": "compute-optimizer-automation",
+    "service_name": "AWS COMPUTE-OPTIMIZER-AUTOMATION",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
     "service_code": "compute-optimizer",
     "service_name": "AWS COMPUTE-OPTIMIZER",
     "category": null,
@@ -1045,8 +1056,8 @@
     "metadata": {}
   },
   {
-    "service_code": "connect",
-    "service_name": "AWS CONNECT",
+    "service_code": "connect-contact-lens",
+    "service_name": "AWS CONNECT-CONTACT-LENS",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1067,8 +1078,8 @@
     "metadata": {}
   },
   {
-    "service_code": "connect-contact-lens",
-    "service_name": "AWS CONNECT-CONTACT-LENS",
+    "service_code": "connect",
+    "service_name": "AWS CONNECT",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1166,17 +1177,6 @@
     "metadata": {}
   },
   {
-    "service_code": "dataexchange",
-    "service_name": "AWS DATAEXCHANGE",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "databrew",
     "service_name": "AWS DATABREW",
     "category": null,
@@ -1199,8 +1199,8 @@
     "metadata": {}
   },
   {
-    "service_code": "datapipeline",
-    "service_name": "AWS DATAPIPELINE",
+    "service_code": "dataexchange",
+    "service_name": "AWS DATAEXCHANGE",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1210,8 +1210,8 @@
     "metadata": {}
   },
   {
-    "service_code": "datazone",
-    "service_name": "AWS DATAZONE",
+    "service_code": "datapipeline",
+    "service_name": "AWS DATAPIPELINE",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1232,8 +1232,8 @@
     "metadata": {}
   },
   {
-    "service_code": "deadline",
-    "service_name": "AWS DEADLINE",
+    "service_code": "detective",
+    "service_name": "AWS DETECTIVE",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1243,8 +1243,19 @@
     "metadata": {}
   },
   {
-    "service_code": "detective",
-    "service_name": "AWS DETECTIVE",
+    "service_code": "datazone",
+    "service_name": "AWS DATAZONE",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "deadline",
+    "service_name": "AWS DEADLINE",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1386,17 +1397,6 @@
     "metadata": {}
   },
   {
-    "service_code": "dynamodb",
-    "service_name": "Amazon DynamoDB",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Table",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "dynamodbstreams",
     "service_name": "AWS DYNAMODBSTREAMS",
     "category": null,
@@ -1404,6 +1404,17 @@
     "description": null,
     "regions": "us-east-1",
     "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "dynamodb",
+    "service_name": "Amazon DynamoDB",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Table",
     "secondary_examples": [],
     "metadata": {}
   },
@@ -1441,8 +1452,8 @@
     "metadata": {}
   },
   {
-    "service_code": "ecr",
-    "service_name": "AWS ECR",
+    "service_code": "ecr-public",
+    "service_name": "AWS ECR-PUBLIC",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1452,8 +1463,8 @@
     "metadata": {}
   },
   {
-    "service_code": "ecr-public",
-    "service_name": "AWS ECR-PUBLIC",
+    "service_code": "ecr",
+    "service_name": "AWS ECR",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1485,30 +1496,8 @@
     "metadata": {}
   },
   {
-    "service_code": "eks",
-    "service_name": "Amazon Elastic Kubernetes Service",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Cluster",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "eks-auth",
     "service_name": "AWS EKS-AUTH",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "elasticache",
-    "service_name": "AWS ELASTICACHE",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1529,8 +1518,30 @@
     "metadata": {}
   },
   {
+    "service_code": "eks",
+    "service_name": "Amazon Elastic Kubernetes Service",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Cluster",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
     "service_code": "elastictranscoder",
     "service_name": "AWS ELASTICTRANSCODER",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "elasticache",
+    "service_name": "AWS ELASTICACHE",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1584,8 +1595,8 @@
     "metadata": {}
   },
   {
-    "service_code": "emr-serverless",
-    "service_name": "AWS EMR-SERVERLESS",
+    "service_code": "entityresolution",
+    "service_name": "AWS ENTITYRESOLUTION",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1595,8 +1606,8 @@
     "metadata": {}
   },
   {
-    "service_code": "entityresolution",
-    "service_name": "AWS ENTITYRESOLUTION",
+    "service_code": "emr-serverless",
+    "service_name": "AWS EMR-SERVERLESS",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1628,8 +1639,8 @@
     "metadata": {}
   },
   {
-    "service_code": "evidently",
-    "service_name": "AWS EVIDENTLY",
+    "service_code": "evs",
+    "service_name": "AWS EVS",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1639,8 +1650,8 @@
     "metadata": {}
   },
   {
-    "service_code": "evs",
-    "service_name": "AWS EVS",
+    "service_code": "evidently",
+    "service_name": "AWS EVIDENTLY",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1848,8 +1859,8 @@
     "metadata": {}
   },
   {
-    "service_code": "glue",
-    "service_name": "AWS GLUE",
+    "service_code": "greengrass",
+    "service_name": "AWS GREENGRASS",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1859,8 +1870,8 @@
     "metadata": {}
   },
   {
-    "service_code": "greengrass",
-    "service_name": "AWS GREENGRASS",
+    "service_code": "glue",
+    "service_name": "AWS GLUE",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -1947,23 +1958,23 @@
     "metadata": {}
   },
   {
-    "service_code": "importexport",
-    "service_name": "AWS IMPORTEXPORT",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "aws-global",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "imagebuilder",
     "service_name": "AWS IMAGEBUILDER",
     "category": null,
     "icon_path": null,
     "description": null,
     "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "importexport",
+    "service_name": "AWS IMPORTEXPORT",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "aws-global",
     "main_resource_example": "Resource",
     "secondary_examples": [],
     "metadata": {}
@@ -2035,17 +2046,6 @@
     "metadata": {}
   },
   {
-    "service_code": "iot-jobs-data",
-    "service_name": "AWS IOT-JOBS-DATA",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "iot-data",
     "service_name": "AWS IOT-DATA",
     "category": null,
@@ -2057,8 +2057,8 @@
     "metadata": {}
   },
   {
-    "service_code": "iotanalytics",
-    "service_name": "AWS IOTANALYTICS",
+    "service_code": "iot-jobs-data",
+    "service_name": "AWS IOT-JOBS-DATA",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2070,6 +2070,17 @@
   {
     "service_code": "iot-managed-integrations",
     "service_name": "AWS IOT-MANAGED-INTEGRATIONS",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "iotanalytics",
+    "service_name": "AWS IOTANALYTICS",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2112,17 +2123,6 @@
     "metadata": {}
   },
   {
-    "service_code": "iotfleethub",
-    "service_name": "AWS IOTFLEETHUB",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "iotfleetwise",
     "service_name": "AWS IOTFLEETWISE",
     "category": null,
@@ -2145,8 +2145,8 @@
     "metadata": {}
   },
   {
-    "service_code": "iotthingsgraph",
-    "service_name": "AWS IOTTHINGSGRAPH",
+    "service_code": "iotsitewise",
+    "service_name": "AWS IOTSITEWISE",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2156,8 +2156,8 @@
     "metadata": {}
   },
   {
-    "service_code": "iotsitewise",
-    "service_name": "AWS IOTSITEWISE",
+    "service_code": "iotthingsgraph",
+    "service_name": "AWS IOTTHINGSGRAPH",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2277,17 +2277,6 @@
     "metadata": {}
   },
   {
-    "service_code": "kinesis",
-    "service_name": "AWS KINESIS",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "keyspacesstreams",
     "service_name": "AWS KEYSPACESSTREAMS",
     "category": null,
@@ -2299,8 +2288,8 @@
     "metadata": {}
   },
   {
-    "service_code": "kinesis-video-archived-media",
-    "service_name": "AWS KINESIS-VIDEO-ARCHIVED-MEDIA",
+    "service_code": "kinesis",
+    "service_name": "AWS KINESIS",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2312,6 +2301,17 @@
   {
     "service_code": "kinesis-video-media",
     "service_name": "AWS KINESIS-VIDEO-MEDIA",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "kinesis-video-archived-media",
+    "service_name": "AWS KINESIS-VIDEO-ARCHIVED-MEDIA",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2442,8 +2442,8 @@
     "metadata": {}
   },
   {
-    "service_code": "lexv2-runtime",
-    "service_name": "AWS LEXV2-RUNTIME",
+    "service_code": "lexv2-models",
+    "service_name": "AWS LEXV2-MODELS",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2453,8 +2453,8 @@
     "metadata": {}
   },
   {
-    "service_code": "lexv2-models",
-    "service_name": "AWS LEXV2-MODELS",
+    "service_code": "lexv2-runtime",
+    "service_name": "AWS LEXV2-RUNTIME",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2519,17 +2519,6 @@
     "metadata": {}
   },
   {
-    "service_code": "logs",
-    "service_name": "AWS LOGS",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "lookoutequipment",
     "service_name": "AWS LOOKOUTEQUIPMENT",
     "category": null,
@@ -2541,19 +2530,8 @@
     "metadata": {}
   },
   {
-    "service_code": "lookoutmetrics",
-    "service_name": "AWS LOOKOUTMETRICS",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "lookoutvision",
-    "service_name": "AWS LOOKOUTVISION",
+    "service_code": "logs",
+    "service_name": "AWS LOGS",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2706,17 +2684,6 @@
     "metadata": {}
   },
   {
-    "service_code": "medialive",
-    "service_name": "AWS MEDIALIVE",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "mediaconvert",
     "service_name": "AWS MEDIACONVERT",
     "category": null,
@@ -2730,6 +2697,17 @@
   {
     "service_code": "mediapackage",
     "service_name": "AWS MEDIAPACKAGE",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "medialive",
+    "service_name": "AWS MEDIALIVE",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2772,8 +2750,8 @@
     "metadata": {}
   },
   {
-    "service_code": "mediatailor",
-    "service_name": "AWS MEDIATAILOR",
+    "service_code": "mediastore-data",
+    "service_name": "AWS MEDIASTORE-DATA",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2783,8 +2761,8 @@
     "metadata": {}
   },
   {
-    "service_code": "mediastore-data",
-    "service_name": "AWS MEDIASTORE-DATA",
+    "service_code": "mediatailor",
+    "service_name": "AWS MEDIATAILOR",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2893,8 +2871,8 @@
     "metadata": {}
   },
   {
-    "service_code": "mq",
-    "service_name": "AWS MQ",
+    "service_code": "mpa",
+    "service_name": "AWS MPA",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2904,8 +2882,8 @@
     "metadata": {}
   },
   {
-    "service_code": "mpa",
-    "service_name": "AWS MPA",
+    "service_code": "mq",
+    "service_name": "AWS MQ",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2937,6 +2915,17 @@
     "metadata": {}
   },
   {
+    "service_code": "mwaa-serverless",
+    "service_name": "AWS MWAA-SERVERLESS",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
     "service_code": "neptune",
     "service_name": "AWS NEPTUNE",
     "category": null,
@@ -2948,8 +2937,8 @@
     "metadata": {}
   },
   {
-    "service_code": "neptunedata",
-    "service_name": "AWS NEPTUNEDATA",
+    "service_code": "neptune-graph",
+    "service_name": "AWS NEPTUNE-GRAPH",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -2959,8 +2948,8 @@
     "metadata": {}
   },
   {
-    "service_code": "neptune-graph",
-    "service_name": "AWS NEPTUNE-GRAPH",
+    "service_code": "neptunedata",
+    "service_name": "AWS NEPTUNEDATA",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3014,23 +3003,23 @@
     "metadata": {}
   },
   {
-    "service_code": "notificationscontacts",
-    "service_name": "AWS NOTIFICATIONSCONTACTS",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "aws-global",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "notifications",
     "service_name": "AWS NOTIFICATIONS",
     "category": null,
     "icon_path": null,
     "description": null,
     "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "notificationscontacts",
+    "service_name": "AWS NOTIFICATIONSCONTACTS",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "aws-global",
     "main_resource_example": "Resource",
     "secondary_examples": [],
     "metadata": {}
@@ -3102,19 +3091,8 @@
     "metadata": {}
   },
   {
-    "service_code": "opsworks",
-    "service_name": "AWS OPSWORKS",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "opsworkscm",
-    "service_name": "AWS OPSWORKSCM",
+    "service_code": "pca-connector-scep",
+    "service_name": "AWS PCA-CONNECTOR-SCEP",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3168,6 +3146,17 @@
     "metadata": {}
   },
   {
+    "service_code": "partnercentral-channel",
+    "service_name": "AWS PARTNERCENTRAL-CHANNEL",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
     "service_code": "partnercentral-selling",
     "service_name": "AWS PARTNERCENTRAL-SELLING",
     "category": null,
@@ -3203,17 +3192,6 @@
   {
     "service_code": "pca-connector-ad",
     "service_name": "AWS PCA-CONNECTOR-AD",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "pca-connector-scep",
-    "service_name": "AWS PCA-CONNECTOR-SCEP",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3278,8 +3256,8 @@
     "metadata": {}
   },
   {
-    "service_code": "pinpoint-email",
-    "service_name": "AWS PINPOINT-EMAIL",
+    "service_code": "pinpoint",
+    "service_name": "AWS PINPOINT",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3289,8 +3267,8 @@
     "metadata": {}
   },
   {
-    "service_code": "pinpoint",
-    "service_name": "AWS PINPOINT",
+    "service_code": "pinpoint-email",
+    "service_name": "AWS PINPOINT-EMAIL",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3399,39 +3377,6 @@
     "metadata": {}
   },
   {
-    "service_code": "qldb",
-    "service_name": "AWS QLDB",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "qldb-session",
-    "service_name": "AWS QLDB-SESSION",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "quicksight",
-    "service_name": "AWS QUICKSIGHT",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "ram",
     "service_name": "AWS RAM",
     "category": null,
@@ -3443,8 +3388,8 @@
     "metadata": {}
   },
   {
-    "service_code": "rds-data",
-    "service_name": "AWS RDS-DATA",
+    "service_code": "quicksight",
+    "service_name": "AWS QUICKSIGHT",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3476,8 +3421,30 @@
     "metadata": {}
   },
   {
+    "service_code": "rds-data",
+    "service_name": "AWS RDS-DATA",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
     "service_code": "redshift",
     "service_name": "AWS REDSHIFT",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "resource-groups",
+    "service_name": "AWS RESOURCE-GROUPS",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3531,17 +3498,6 @@
     "metadata": {}
   },
   {
-    "service_code": "resource-explorer-2",
-    "service_name": "AWS RESOURCE-EXPLORER-2",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "resiliencehub",
     "service_name": "AWS RESILIENCEHUB",
     "category": null,
@@ -3553,30 +3509,19 @@
     "metadata": {}
   },
   {
+    "service_code": "resource-explorer-2",
+    "service_name": "AWS RESOURCE-EXPLORER-2",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
     "service_code": "resourcegroupstaggingapi",
     "service_name": "AWS RESOURCEGROUPSTAGGINGAPI",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "resource-groups",
-    "service_name": "AWS RESOURCE-GROUPS",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "robomaker",
-    "service_name": "AWS ROBOMAKER",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3608,8 +3553,8 @@
     "metadata": {}
   },
   {
-    "service_code": "route53-recovery-control-config",
-    "service_name": "AWS ROUTE53-RECOVERY-CONTROL-CONFIG",
+    "service_code": "route53-recovery-cluster",
+    "service_name": "AWS ROUTE53-RECOVERY-CLUSTER",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3619,8 +3564,8 @@
     "metadata": {}
   },
   {
-    "service_code": "route53-recovery-cluster",
-    "service_name": "AWS ROUTE53-RECOVERY-CLUSTER",
+    "service_code": "route53-recovery-control-config",
+    "service_name": "AWS ROUTE53-RECOVERY-CONTROL-CONFIG",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3641,17 +3586,6 @@
     "metadata": {}
   },
   {
-    "service_code": "route53profiles",
-    "service_name": "AWS ROUTE53PROFILES",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "route53domains",
     "service_name": "AWS ROUTE53DOMAINS",
     "category": null,
@@ -3663,8 +3597,8 @@
     "metadata": {}
   },
   {
-    "service_code": "rum",
-    "service_name": "AWS RUM",
+    "service_code": "route53profiles",
+    "service_name": "AWS ROUTE53PROFILES",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3685,6 +3619,28 @@
     "metadata": {}
   },
   {
+    "service_code": "rtbfabric",
+    "service_name": "AWS RTBFABRIC",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "rum",
+    "service_name": "AWS RUM",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
     "service_code": "s3",
     "service_name": "Amazon Simple Storage Service",
     "category": null,
@@ -3696,8 +3652,8 @@
     "metadata": {}
   },
   {
-    "service_code": "s3outposts",
-    "service_name": "AWS S3OUTPOSTS",
+    "service_code": "s3control",
+    "service_name": "AWS S3CONTROL",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3707,8 +3663,8 @@
     "metadata": {}
   },
   {
-    "service_code": "s3control",
-    "service_name": "AWS S3CONTROL",
+    "service_code": "s3outposts",
+    "service_name": "AWS S3OUTPOSTS",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3740,8 +3696,8 @@
     "metadata": {}
   },
   {
-    "service_code": "sagemaker",
-    "service_name": "AWS SAGEMAKER",
+    "service_code": "sagemaker-a2i-runtime",
+    "service_name": "AWS SAGEMAKER-A2I-RUNTIME",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3762,19 +3718,8 @@
     "metadata": {}
   },
   {
-    "service_code": "sagemaker-a2i-runtime",
-    "service_name": "AWS SAGEMAKER-A2I-RUNTIME",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "scheduler",
-    "service_name": "AWS SCHEDULER",
+    "service_code": "sagemaker",
+    "service_name": "AWS SAGEMAKER",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3806,6 +3751,17 @@
     "metadata": {}
   },
   {
+    "service_code": "sagemaker-metrics",
+    "service_name": "AWS SAGEMAKER-METRICS",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
     "service_code": "sagemaker-runtime",
     "service_name": "AWS SAGEMAKER-RUNTIME",
     "category": null,
@@ -3828,8 +3784,8 @@
     "metadata": {}
   },
   {
-    "service_code": "sagemaker-metrics",
-    "service_name": "AWS SAGEMAKER-METRICS",
+    "service_code": "scheduler",
+    "service_name": "AWS SCHEDULER",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3861,17 +3817,6 @@
     "metadata": {}
   },
   {
-    "service_code": "security-ir",
-    "service_name": "AWS SECURITY-IR",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "secretsmanager",
     "service_name": "AWS SECRETSMANAGER",
     "category": null,
@@ -3883,8 +3828,8 @@
     "metadata": {}
   },
   {
-    "service_code": "securitylake",
-    "service_name": "AWS SECURITYLAKE",
+    "service_code": "security-ir",
+    "service_name": "AWS SECURITY-IR",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3905,8 +3850,8 @@
     "metadata": {}
   },
   {
-    "service_code": "servicecatalog-appregistry",
-    "service_name": "AWS SERVICECATALOG-APPREGISTRY",
+    "service_code": "securitylake",
+    "service_name": "AWS SECURITYLAKE",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3918,17 +3863,6 @@
   {
     "service_code": "serverlessrepo",
     "service_name": "AWS SERVERLESSREPO",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "servicediscovery",
-    "service_name": "AWS SERVICEDISCOVERY",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3960,8 +3894,41 @@
     "metadata": {}
   },
   {
+    "service_code": "servicecatalog-appregistry",
+    "service_name": "AWS SERVICECATALOG-APPREGISTRY",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "servicediscovery",
+    "service_name": "AWS SERVICEDISCOVERY",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
     "service_code": "ses",
     "service_name": "AWS SES",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "sesv2",
+    "service_name": "AWS SESV2",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3982,8 +3949,8 @@
     "metadata": {}
   },
   {
-    "service_code": "sesv2",
-    "service_name": "AWS SESV2",
+    "service_code": "signer",
+    "service_name": "AWS SIGNER",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -3993,8 +3960,19 @@
     "metadata": {}
   },
   {
-    "service_code": "signer",
-    "service_name": "AWS SIGNER",
+    "service_code": "snow-device-management",
+    "service_name": "AWS SNOW-DEVICE-MANAGEMENT",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "signin",
+    "service_name": "AWS SIGNIN",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -4015,30 +3993,8 @@
     "metadata": {}
   },
   {
-    "service_code": "sms",
-    "service_name": "AWS SMS",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "sms-voice",
     "service_name": "AWS SMS-VOICE",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "snow-device-management",
-    "service_name": "AWS SNOW-DEVICE-MANAGEMENT",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -4235,8 +4191,8 @@
     "metadata": {}
   },
   {
-    "service_code": "support-app",
-    "service_name": "AWS SUPPORT-APP",
+    "service_code": "support",
+    "service_name": "AWS SUPPORT",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -4246,8 +4202,8 @@
     "metadata": {}
   },
   {
-    "service_code": "support",
-    "service_name": "AWS SUPPORT",
+    "service_code": "support-app",
+    "service_name": "AWS SUPPORT-APP",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -4323,8 +4279,8 @@
     "metadata": {}
   },
   {
-    "service_code": "tnb",
-    "service_name": "AWS TNB",
+    "service_code": "timestream-write",
+    "service_name": "AWS TIMESTREAM-WRITE",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -4334,8 +4290,8 @@
     "metadata": {}
   },
   {
-    "service_code": "timestream-write",
-    "service_name": "AWS TIMESTREAM-WRITE",
+    "service_code": "tnb",
+    "service_name": "AWS TNB",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -4422,34 +4378,12 @@
     "metadata": {}
   },
   {
-    "service_code": "wellarchitected",
-    "service_name": "AWS WELLARCHITECTED",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
     "service_code": "waf",
     "service_name": "AWS WAF",
     "category": null,
     "icon_path": null,
     "description": null,
     "regions": "aws-global",
-    "main_resource_example": "Resource",
-    "secondary_examples": [],
-    "metadata": {}
-  },
-  {
-    "service_code": "wafv2",
-    "service_name": "AWS WAFV2",
-    "category": null,
-    "icon_path": null,
-    "description": null,
-    "regions": "us-east-1",
     "main_resource_example": "Resource",
     "secondary_examples": [],
     "metadata": {}
@@ -4466,8 +4400,8 @@
     "metadata": {}
   },
   {
-    "service_code": "wisdom",
-    "service_name": "AWS WISDOM",
+    "service_code": "wafv2",
+    "service_name": "AWS WAFV2",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -4477,8 +4411,19 @@
     "metadata": {}
   },
   {
-    "service_code": "workmailmessageflow",
-    "service_name": "AWS WORKMAILMESSAGEFLOW",
+    "service_code": "wellarchitected",
+    "service_name": "AWS WELLARCHITECTED",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
+    "service_code": "wisdom",
+    "service_name": "AWS WISDOM",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -4510,6 +4455,17 @@
     "metadata": {}
   },
   {
+    "service_code": "workmailmessageflow",
+    "service_name": "AWS WORKMAILMESSAGEFLOW",
+    "category": null,
+    "icon_path": null,
+    "description": null,
+    "regions": "us-east-1",
+    "main_resource_example": "Resource",
+    "secondary_examples": [],
+    "metadata": {}
+  },
+  {
     "service_code": "workspaces",
     "service_name": "AWS WORKSPACES",
     "category": null,
@@ -4532,8 +4488,8 @@
     "metadata": {}
   },
   {
-    "service_code": "workspaces-web",
-    "service_name": "AWS WORKSPACES-WEB",
+    "service_code": "workspaces-thin-client",
+    "service_name": "AWS WORKSPACES-THIN-CLIENT",
     "category": null,
     "icon_path": null,
     "description": null,
@@ -4543,8 +4499,8 @@
     "metadata": {}
   },
   {
-    "service_code": "workspaces-thin-client",
-    "service_name": "AWS WORKSPACES-THIN-CLIENT",
+    "service_code": "workspaces-web",
+    "service_name": "AWS WORKSPACES-WEB",
     "category": null,
     "icon_path": null,
     "description": null,

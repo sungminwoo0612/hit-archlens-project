@@ -1,0 +1,22 @@
+coarse_class = [
+    "Compute",
+    "Networking",
+    "Storage",
+    "Database",
+    "Containers & Orchestration",
+    "Serverless & Event-driven",
+    "Application Integration",
+    "Analytics",
+    "AI & Machine Learning",
+    "Security & Identity",
+    "Monitoring & Logging",
+    "Management & Governance",
+    "DevOps & Developer Tools",
+    "Migration & Transfer",
+    "Business Applications",
+    "IoT",
+    "Media Services",
+    "Blockchain",
+    "Quantum",
+    "Robotics / AR-VR"
+]

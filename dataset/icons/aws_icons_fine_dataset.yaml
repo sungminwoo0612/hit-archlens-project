@@ -1,0 +1,120 @@
+path: /home/wsm/workspace/hit-archlens-project/dataset/icons
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: amazon api gateway
+  1: amazon athena
+  2: amazon aurora
+  86: amazon bedrock
+  3: amazon braket
+  4: amazon chime
+  64: amazon cloudfront
+  5: amazon cloudwatch
+  65: amazon cognito
+  6: amazon comprehend
+  7: amazon connect
+  8: amazon documentdb
+  9: amazon dynamodb
+  73: amazon ebs
+  10: amazon ec2
+  72: amazon ec2 ami
+  66: amazon ecr
+  11: amazon ecs
+  12: amazon efs
+  13: amazon eks
+  14: amazon elasticache
+  15: amazon emr
+  16: amazon eventbridge
+  17: amazon fsx
+  87: amazon guardduty
+  88: amazon kendra
+  89: amazon kinesis data analytics
+  82: amazon kinesis data firehose
+  83: amazon kinesis data streams
+  90: amazon lex
+  18: amazon lightsail
+  19: amazon managed blockchain
+  91: amazon managed grafana
+  92: amazon managed service for prometheus
+  20: amazon mq
+  84: amazon msk
+  85: amazon neptune
+  21: amazon opensearch service
+  93: amazon polly
+  22: amazon quicksight
+  23: amazon rds
+  24: amazon redshift
+  25: amazon rekognition
+  26: amazon route 53
+  27: amazon s3
+  94: amazon s3 glacier
+  95: amazon s3 glacier deep archive
+  28: amazon sagemaker
+  96: amazon ses
+  70: amazon sns
+  71: amazon sqs
+  29: amazon textract
+  97: amazon transcribe
+  98: amazon translate
+  30: amazon vpc
+  79: amazon vpc endpoints
+  31: amazon workdocs
+  32: amazon workspaces
+  99: aws amplify
+  33: aws app mesh
+  100: aws app runner
+  101: aws appconfig
+  102: aws application migration service
+  67: aws appsync
+  103: aws auto scaling
+  34: aws backup
+  35: aws batch
+  104: aws cdk
+  105: aws certificate manager
+  36: aws cloud map
+  106: aws cloud9
+  37: aws cloudformation
+  38: aws cloudtrail
+  76: aws codeartifact
+  75: aws codebuild
+  107: aws codecatalyst
+  74: aws codecommit
+  77: aws codedeploy
+  78: aws codepipeline
+  39: aws config
+  108: aws control tower
+  40: aws database migration service
+  41: aws datasync
+  42: aws direct connect
+  43: aws elastic beanstalk
+  68: aws fargate
+  109: aws global accelerator
+  44: aws glue
+  81: aws iam
+  110: aws iam identity center
+  45: aws iot analytics
+  46: aws iot core
+  47: aws iot greengrass
+  48: aws iot sitewise
+  111: aws kms
+  49: aws lake formation
+  50: aws lambda
+  51: aws license manager
+  112: aws network firewall
+  52: aws organizations
+  80: aws privatelink
+  53: aws robomaker
+  113: aws secrets manager
+  54: aws security hub
+  55: aws shield
+  56: aws snowball
+  69: aws step functions
+  57: aws storage gateway
+  58: aws systems manager
+  59: aws transfer family
+  60: aws transit gateway
+  61: aws trusted advisor
+  62: aws waf
+  114: aws x-ray
+  63: elastic load balancing

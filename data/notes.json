@@ -1,0 +1,485 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "alb"
+    },
+    {
+      "id": 1,
+      "name": "amplify"
+    },
+    {
+      "id": 2,
+      "name": "api gateway"
+    },
+    {
+      "id": 3,
+      "name": "app mesh"
+    },
+    {
+      "id": 4,
+      "name": "app runner"
+    },
+    {
+      "id": 5,
+      "name": "appconfig"
+    },
+    {
+      "id": 6,
+      "name": "application migration service"
+    },
+    {
+      "id": 7,
+      "name": "appsync"
+    },
+    {
+      "id": 8,
+      "name": "athena"
+    },
+    {
+      "id": 9,
+      "name": "aurora"
+    },
+    {
+      "id": 10,
+      "name": "auto scaling"
+    },
+    {
+      "id": 11,
+      "name": "backup"
+    },
+    {
+      "id": 12,
+      "name": "batch"
+    },
+    {
+      "id": 13,
+      "name": "bedrock"
+    },
+    {
+      "id": 14,
+      "name": "braket"
+    },
+    {
+      "id": 15,
+      "name": "cdk"
+    },
+    {
+      "id": 16,
+      "name": "certificate manager"
+    },
+    {
+      "id": 17,
+      "name": "chime"
+    },
+    {
+      "id": 18,
+      "name": "clb"
+    },
+    {
+      "id": 19,
+      "name": "cloud map"
+    },
+    {
+      "id": 20,
+      "name": "cloud9"
+    },
+    {
+      "id": 21,
+      "name": "cloudformation"
+    },
+    {
+      "id": 22,
+      "name": "cloudfront"
+    },
+    {
+      "id": 23,
+      "name": "cloudtrail"
+    },
+    {
+      "id": 24,
+      "name": "cloudwatch"
+    },
+    {
+      "id": 25,
+      "name": "codeartifact"
+    },
+    {
+      "id": 26,
+      "name": "codebuild"
+    },
+    {
+      "id": 27,
+      "name": "codecatalyst"
+    },
+    {
+      "id": 28,
+      "name": "codecommit"
+    },
+    {
+      "id": 29,
+      "name": "codedeploy"
+    },
+    {
+      "id": 30,
+      "name": "codepipeline"
+    },
+    {
+      "id": 31,
+      "name": "cognito"
+    },
+    {
+      "id": 32,
+      "name": "comprehend"
+    },
+    {
+      "id": 33,
+      "name": "config"
+    },
+    {
+      "id": 34,
+      "name": "connect"
+    },
+    {
+      "id": 35,
+      "name": "control tower"
+    },
+    {
+      "id": 36,
+      "name": "database migration service"
+    },
+    {
+      "id": 37,
+      "name": "datasync"
+    },
+    {
+      "id": 38,
+      "name": "direct connect"
+    },
+    {
+      "id": 39,
+      "name": "documentdb"
+    },
+    {
+      "id": 40,
+      "name": "dynamodb"
+    },
+    {
+      "id": 41,
+      "name": "ec2"
+    },
+    {
+      "id": 42,
+      "name": "ecr"
+    },
+    {
+      "id": 43,
+      "name": "ecs"
+    },
+    {
+      "id": 44,
+      "name": "efs"
+    },
+    {
+      "id": 45,
+      "name": "eks"
+    },
+    {
+      "id": 46,
+      "name": "elastic beanstalk"
+    },
+    {
+      "id": 47,
+      "name": "elasticache"
+    },
+    {
+      "id": 48,
+      "name": "elb"
+    },
+    {
+      "id": 49,
+      "name": "emr"
+    },
+    {
+      "id": 50,
+      "name": "eventbridge"
+    },
+    {
+      "id": 51,
+      "name": "fargate"
+    },
+    {
+      "id": 52,
+      "name": "fsx"
+    },
+    {
+      "id": 53,
+      "name": "glb"
+    },
+    {
+      "id": 54,
+      "name": "global accelerator"
+    },
+    {
+      "id": 55,
+      "name": "glue"
+    },
+    {
+      "id": 56,
+      "name": "guardduty"
+    },
+    {
+      "id": 57,
+      "name": "iam"
+    },
+    {
+      "id": 58,
+      "name": "identity center"
+    },
+    {
+      "id": 59,
+      "name": "iot analytics"
+    },
+    {
+      "id": 60,
+      "name": "iot core"
+    },
+    {
+      "id": 61,
+      "name": "iot greengrass"
+    },
+    {
+      "id": 62,
+      "name": "iot sitewise"
+    },
+    {
+      "id": 63,
+      "name": "kendra"
+    },
+    {
+      "id": 64,
+      "name": "kinesis data analytics"
+    },
+    {
+      "id": 65,
+      "name": "kinesis data firehose"
+    },
+    {
+      "id": 66,
+      "name": "kinesis data streams"
+    },
+    {
+      "id": 67,
+      "name": "kms"
+    },
+    {
+      "id": 68,
+      "name": "lake formation"
+    },
+    {
+      "id": 69,
+      "name": "lambda"
+    },
+    {
+      "id": 70,
+      "name": "lex"
+    },
+    {
+      "id": 71,
+      "name": "license manager"
+    },
+    {
+      "id": 72,
+      "name": "lightsail"
+    },
+    {
+      "id": 73,
+      "name": "managed blockchain"
+    },
+    {
+      "id": 74,
+      "name": "managed grafana"
+    },
+    {
+      "id": 75,
+      "name": "managed prometheus"
+    },
+    {
+      "id": 76,
+      "name": "mq"
+    },
+    {
+      "id": 77,
+      "name": "msk"
+    },
+    {
+      "id": 78,
+      "name": "neptune"
+    },
+    {
+      "id": 79,
+      "name": "network firewall"
+    },
+    {
+      "id": 80,
+      "name": "nlb"
+    },
+    {
+      "id": 81,
+      "name": "opensearch service"
+    },
+    {
+      "id": 82,
+      "name": "organizations"
+    },
+    {
+      "id": 83,
+      "name": "polly"
+    },
+    {
+      "id": 84,
+      "name": "privatelink"
+    },
+    {
+      "id": 85,
+      "name": "quicksight"
+    },
+    {
+      "id": 86,
+      "name": "rds"
+    },
+    {
+      "id": 87,
+      "name": "redshift"
+    },
+    {
+      "id": 88,
+      "name": "rekognition"
+    },
+    {
+      "id": 89,
+      "name": "robomaker"
+    },
+    {
+      "id": 90,
+      "name": "route 53"
+    },
+    {
+      "id": 91,
+      "name": "s3"
+    },
+    {
+      "id": 92,
+      "name": "s3 glacier"
+    },
+    {
+      "id": 93,
+      "name": "s3 glacier deep archive"
+    },
+    {
+      "id": 94,
+      "name": "sagemaker"
+    },
+    {
+      "id": 95,
+      "name": "sdk"
+    },
+    {
+      "id": 96,
+      "name": "secrets manager"
+    },
+    {
+      "id": 97,
+      "name": "security hub"
+    },
+    {
+      "id": 98,
+      "name": "ses"
+    },
+    {
+      "id": 99,
+      "name": "shield"
+    },
+    {
+      "id": 100,
+      "name": "site-to-site vpn"
+    },
+    {
+      "id": 101,
+      "name": "snowball"
+    },
+    {
+      "id": 102,
+      "name": "sns"
+    },
+    {
+      "id": 103,
+      "name": "sqs"
+    },
+    {
+      "id": 104,
+      "name": "step functions"
+    },
+    {
+      "id": 105,
+      "name": "storage gateway"
+    },
+    {
+      "id": 106,
+      "name": "systems manager"
+    },
+    {
+      "id": 107,
+      "name": "textract"
+    },
+    {
+      "id": 108,
+      "name": "transcribe"
+    },
+    {
+      "id": 109,
+      "name": "transfer family"
+    },
+    {
+      "id": 110,
+      "name": "transit gateway"
+    },
+    {
+      "id": 111,
+      "name": "translate"
+    },
+    {
+      "id": 112,
+      "name": "trusted advisor"
+    },
+    {
+      "id": 113,
+      "name": "vpc"
+    },
+    {
+      "id": 114,
+      "name": "vpc endpoints"
+    },
+    {
+      "id": 115,
+      "name": "waf"
+    },
+    {
+      "id": 116,
+      "name": "workdocs"
+    },
+    {
+      "id": 117,
+      "name": "workspaces"
+    },
+    {
+      "id": 118,
+      "name": "x-ray"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

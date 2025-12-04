@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-11-29T17:41:51.738779",
+  "cloud_provider": "aws",
+  "statistics": {
+    "total_collections": 0,
+    "successful_collections": 0,
+    "failed_collections": 0,
+    "success_rate": 0.0,
+    "total_data_count": 0,
+    "average_processing_time": 0.0
+  },
+  "collection_details": {}
+}

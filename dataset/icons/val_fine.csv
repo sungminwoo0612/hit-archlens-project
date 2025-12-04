@@ -1,0 +1,96 @@
+file_path,canonical_service_name,coarse_class,original_path
+fine/amazon aurora/Res_Amazon-Aurora-MySQL-Instance_48.png,amazon aurora,Database,Resource-Icons_02072025/Res_Database/Res_Amazon-Aurora-MySQL-Instance_48.svg
+fine/amazon braket/Arch_Amazon-Braket_32.png,amazon braket,Quantum,Architecture-Service-Icons_02072025/Arch_Quantum-Technologies/32/Arch_Amazon-Braket_32.svg
+fine/amazon braket/Res_Amazon-Braket_Noise-Simulator_48.png,amazon braket,Quantum,Resource-Icons_02072025/Res_Quantum-Technologies/Res_Amazon-Braket_Noise-Simulator_48.svg
+fine/amazon braket/Res_Amazon-Braket_Simulator-2_48.png,amazon braket,Quantum,Resource-Icons_02072025/Res_Quantum-Technologies/Res_Amazon-Braket_Simulator-2_48.svg
+fine/amazon chime/Arch_Amazon-Chime_48.png,amazon chime,Business Applications,Architecture-Service-Icons_02072025/Arch_Business-Applications/48/Arch_Amazon-Chime_48.svg
+fine/amazon cloudwatch/Res_Amazon-CloudWatch_Metrics-Insights_48.png,amazon cloudwatch,Monitoring & Logging,Resource-Icons_02072025/Res_Management-Governance/Res_Amazon-CloudWatch_Metrics-Insights_48.svg
+fine/amazon cloudwatch/Res_Amazon-CloudWatch_RUM_48.png,amazon cloudwatch,Monitoring & Logging,Resource-Icons_02072025/Res_Management-Governance/Res_Amazon-CloudWatch_RUM_48.svg
+fine/amazon cloudwatch/Res_Amazon-CloudWatch_Rule_48.png,amazon cloudwatch,Monitoring & Logging,Resource-Icons_02072025/Res_Management-Governance/Res_Amazon-CloudWatch_Rule_48.svg
+fine/amazon comprehend/Arch_Amazon-Comprehend-Medical_16.png,amazon comprehend,AI & Machine Learning,Architecture-Service-Icons_02072025/Arch_Artificial-Intelligence/16/Arch_Amazon-Comprehend-Medical_16.svg
+fine/amazon comprehend/Arch_Amazon-Comprehend_16.png,amazon comprehend,AI & Machine Learning,Architecture-Service-Icons_02072025/Arch_Artificial-Intelligence/16/Arch_Amazon-Comprehend_16.svg
+fine/amazon comprehend/Arch_Amazon-Comprehend_48.png,amazon comprehend,AI & Machine Learning,Architecture-Service-Icons_02072025/Arch_Artificial-Intelligence/48/Arch_Amazon-Comprehend_48.svg
+fine/amazon connect/Arch_Amazon-Connect_64.png,amazon connect,Business Applications,Architecture-Service-Icons_02072025/Arch_Business-Applications/64/Arch_Amazon-Connect_64.svg
+fine/amazon connect/Res_AWS-Directory-Service_AD-Connector_48.png,amazon connect,Business Applications,Resource-Icons_02072025/Res_Security-Identity-Compliance/Res_AWS-Directory-Service_AD-Connector_48.svg
+fine/amazon documentdb/Arch_Amazon-DocumentDB_32.png,amazon documentdb,Database,Architecture-Service-Icons_02072025/Arch_Database/32/Arch_Amazon-DocumentDB_32.svg
+fine/amazon dynamodb/Res_Amazon-DynamoDB_Global-secondary-index_48.png,amazon dynamodb,Database,Resource-Icons_02072025/Res_Database/Res_Amazon-DynamoDB_Global-secondary-index_48.svg
+fine/amazon dynamodb/Res_Amazon-DynamoDB_Standard-Access-Table-Class_48.png,amazon dynamodb,Database,Resource-Icons_02072025/Res_Database/Res_Amazon-DynamoDB_Standard-Access-Table-Class_48.svg
+fine/amazon ec2/Arch_Amazon-EC2_48.png,amazon ec2,Compute,Architecture-Service-Icons_02072025/Arch_Compute/48/Arch_Amazon-EC2_48.svg
+fine/amazon ec2/Res_Amazon-EC2_Auto-Scaling_48.png,amazon ec2,Compute,Resource-Icons_02072025/Res_Compute/Res_Amazon-EC2_Auto-Scaling_48.svg
+fine/amazon ecs/Arch_Amazon-ECS-Anywhere_16.png,amazon ecs,Containers & Orchestration,Architecture-Service-Icons_02072025/Arch_Containers/16/Arch_Amazon-ECS-Anywhere_16.svg
+fine/amazon ecs/Res_Amazon-Elastic-Container-Service_ECS-Service-Connect_48.png,amazon ecs,Containers & Orchestration,Resource-Icons_02072025/Res_Containers/Res_Amazon-Elastic-Container-Service_ECS-Service-Connect_48.svg
+fine/amazon efs/Res_Amazon-Elastic-File-System_EFS-One-Zone-Infrequent-Access_48.png,amazon efs,Storage,Resource-Icons_02072025/Res_Storage/Res_Amazon-Elastic-File-System_EFS-One-Zone-Infrequent-Access_48.svg
+fine/amazon eks/Arch_Amazon-EKS-Cloud_64.png,amazon eks,Containers & Orchestration,Architecture-Service-Icons_02072025/Arch_Containers/64/Arch_Amazon-EKS-Cloud_64.svg
+fine/amazon elasticache/Res_Amazon-ElastiCache_ElastiCache-for-Redis_48.png,amazon elasticache,Database,Resource-Icons_02072025/Res_Database/Res_Amazon-ElastiCache_ElastiCache-for-Redis_48.svg
+fine/amazon eventbridge/Arch_Amazon-EventBridge_48.png,amazon eventbridge,Serverless & Event-driven,Architecture-Service-Icons_02072025/Arch_App-Integration/48/Arch_Amazon-EventBridge_48.svg
+fine/amazon eventbridge/Res_Amazon-EventBridge_Pipes_48.png,amazon eventbridge,Serverless & Event-driven,Resource-Icons_02072025/Res_Application-Integration/Res_Amazon-EventBridge_Pipes_48.svg
+fine/amazon fsx/Arch_Amazon-FSx-for-NetApp-ONTAP_32.png,amazon fsx,Storage,Architecture-Service-Icons_02072025/Arch_Storage/32/Arch_Amazon-FSx-for-NetApp-ONTAP_32.svg
+fine/amazon fsx/Arch_Amazon-FSx-for-OpenZFS_16.png,amazon fsx,Storage,Architecture-Service-Icons_02072025/Arch_Storage/16/Arch_Amazon-FSx-for-OpenZFS_16.svg
+fine/amazon fsx/Arch_Amazon-FSx-for-OpenZFS_32.png,amazon fsx,Storage,Architecture-Service-Icons_02072025/Arch_Storage/32/Arch_Amazon-FSx-for-OpenZFS_32.svg
+fine/amazon fsx/Arch_Amazon-FSx-for-WFS_16.png,amazon fsx,Storage,Architecture-Service-Icons_02072025/Arch_Storage/16/Arch_Amazon-FSx-for-WFS_16.svg
+fine/amazon lightsail/Arch_Amazon-Lightsail-for-Research_16.png,amazon lightsail,Compute,Architecture-Service-Icons_02072025/Arch_Compute/16/Arch_Amazon-Lightsail-for-Research_16.svg
+fine/amazon lightsail/Arch_Amazon-Lightsail_48.png,amazon lightsail,Compute,Architecture-Service-Icons_02072025/Arch_Compute/48/Arch_Amazon-Lightsail_48.svg
+fine/amazon lightsail/Arch_Amazon-Lightsail_64.png,amazon lightsail,Compute,Architecture-Service-Icons_02072025/Arch_Compute/64/Arch_Amazon-Lightsail_64.svg
+fine/amazon managed blockchain/Arch_Amazon-Managed-Blockchain_64.png,amazon managed blockchain,Blockchain,Architecture-Service-Icons_02072025/Arch_Blockchain/64/Arch_Amazon-Managed-Blockchain_64.svg
+fine/amazon mq/Arch_Amazon-MQ_64.png,amazon mq,Application Integration,Architecture-Service-Icons_02072025/Arch_App-Integration/64/Arch_Amazon-MQ_64.svg
+fine/amazon opensearch service/Arch_Amazon-OpenSearch-Service_32.png,amazon opensearch service,Analytics,Architecture-Service-Icons_02072025/Arch_Analytics/32/Arch_Amazon-OpenSearch-Service_32.svg
+fine/amazon opensearch service/Arch_Amazon-OpenSearch-Service_48.png,amazon opensearch service,Analytics,Architecture-Service-Icons_02072025/Arch_Analytics/48/Arch_Amazon-OpenSearch-Service_48.svg
+fine/amazon opensearch service/Arch_Amazon-OpenSearch-Service_64.png,amazon opensearch service,Analytics,Architecture-Service-Icons_02072025/Arch_Analytics/64/Arch_Amazon-OpenSearch-Service_64.svg
+fine/amazon rds/Arch_Amazon-RDS_32.png,amazon rds,Database,Architecture-Service-Icons_02072025/Arch_Database/32/Arch_Amazon-RDS_32.svg
+fine/amazon rds/Res_Amazon-Aurora_Amazon-RDS-Instance-Aternate_48.png,amazon rds,Database,Resource-Icons_02072025/Res_Database/Res_Amazon-Aurora_Amazon-RDS-Instance-Aternate_48.svg
+fine/amazon redshift/Arch_Amazon-Redshift_16.png,amazon redshift,Database,Architecture-Service-Icons_02072025/Arch_Analytics/16/Arch_Amazon-Redshift_16.svg
+fine/amazon redshift/Arch_Amazon-Redshift_48.png,amazon redshift,Database,Architecture-Service-Icons_02072025/Arch_Analytics/48/Arch_Amazon-Redshift_48.svg
+fine/amazon redshift/Res_Amazon-Redshift_Streaming-Ingestion_48.png,amazon redshift,Database,Resource-Icons_02072025/Res_Analytics/Res_Amazon-Redshift_Streaming-Ingestion_48.svg
+fine/amazon route 53/Arch_Amazon-Route-53_48.png,amazon route 53,Networking,Architecture-Service-Icons_02072025/Arch_Networking-Content-Delivery/48/Arch_Amazon-Route-53_48.svg
+fine/amazon s3/Res_Amazon-Simple-Storage-Service_S3-Object-Lambda_48.png,amazon s3,Storage,Resource-Icons_02072025/Res_Storage/Res_Amazon-Simple-Storage-Service_S3-Object-Lambda_48.svg
+fine/amazon sagemaker/Arch_Amazon-SageMaker_64.png,amazon sagemaker,AI & Machine Learning,Architecture-Service-Icons_02072025/Arch_Analytics/64/Arch_Amazon-SageMaker_64.svg
+fine/amazon sagemaker/Res_Amazon-SageMaker_Shadow-Testing_48.png,amazon sagemaker,AI & Machine Learning,Resource-Icons_02072025/Res_Artificial-Intelligence/Res_Amazon-SageMaker_Shadow-Testing_48.svg
+fine/amazon textract/Res_Amazon-Textract_Analyze-Lending_48.png,amazon textract,AI & Machine Learning,Resource-Icons_02072025/Res_Artificial-Intelligence/Res_Amazon-Textract_Analyze-Lending_48.svg
+fine/amazon vpc/Res_Amazon-VPC_Customer-Gateway_48.png,amazon vpc,Networking,Resource-Icons_02072025/Res_Networking-Content-Delivery/Res_Amazon-VPC_Customer-Gateway_48.svg
+fine/amazon vpc/Res_Amazon-VPC_Elastic-Network-Adapter_48.png,amazon vpc,Networking,Resource-Icons_02072025/Res_Networking-Content-Delivery/Res_Amazon-VPC_Elastic-Network-Adapter_48.svg
+fine/amazon vpc/Res_Amazon-VPC_Virtual-private-cloud-VPC_48.png,amazon vpc,Networking,Resource-Icons_02072025/Res_Networking-Content-Delivery/Res_Amazon-VPC_Virtual-private-cloud-VPC_48.svg
+fine/amazon workdocs/Arch_Amazon-WorkDocs-SDK_64.png,amazon workdocs,Business Applications,Architecture-Service-Icons_02072025/Arch_Business-Applications/64/Arch_Amazon-WorkDocs-SDK_64.svg
+fine/amazon workdocs/Arch_Amazon-WorkDocs_48.png,amazon workdocs,Business Applications,Architecture-Service-Icons_02072025/Arch_Business-Applications/48/Arch_Amazon-WorkDocs_48.svg
+fine/amazon workdocs/Arch_Amazon-WorkDocs_64.png,amazon workdocs,Business Applications,Architecture-Service-Icons_02072025/Arch_Business-Applications/64/Arch_Amazon-WorkDocs_64.svg
+fine/aws app mesh/Res_AWS-App-Mesh_Virtual-Gateway_48.png,aws app mesh,Application Integration,Resource-Icons_02072025/Res_Networking-Content-Delivery/Res_AWS-App-Mesh_Virtual-Gateway_48.svg
+fine/aws app mesh/Res_AWS-App-Mesh_Virtual-Router_48.png,aws app mesh,Application Integration,Resource-Icons_02072025/Res_Networking-Content-Delivery/Res_AWS-App-Mesh_Virtual-Router_48.svg
+fine/aws backup/Res_AWS-Backup_Audit-Manager_48.png,aws backup,Storage,Resource-Icons_02072025/Res_Storage/Res_AWS-Backup_Audit-Manager_48.svg
+fine/aws backup/Res_AWS-Backup_Backup-Plan_48.png,aws backup,Storage,Resource-Icons_02072025/Res_Storage/Res_AWS-Backup_Backup-Plan_48.svg
+fine/aws backup/Res_AWS-Backup_Gateway_48.png,aws backup,Storage,Resource-Icons_02072025/Res_Storage/Res_AWS-Backup_Gateway_48.svg
+fine/aws backup/Res_AWS-Backup_Recovery-Point-Objective_48.png,aws backup,Storage,Resource-Icons_02072025/Res_Storage/Res_AWS-Backup_Recovery-Point-Objective_48.svg
+fine/aws backup/Res_AWS-Backup_Recovery-Time-Objective_48.png,aws backup,Storage,Resource-Icons_02072025/Res_Storage/Res_AWS-Backup_Recovery-Time-Objective_48.svg
+fine/aws backup/Res_AWS-Backup_Virtual-Machine-Monitor_48.png,aws backup,Storage,Resource-Icons_02072025/Res_Storage/Res_AWS-Backup_Virtual-Machine-Monitor_48.svg
+fine/aws backup/Res_AWS-Backup_Virtual-Machine_48.png,aws backup,Storage,Resource-Icons_02072025/Res_Storage/Res_AWS-Backup_Virtual-Machine_48.svg
+fine/aws cloud map/Res_AWS-Cloud-Map_Namespace_48.png,aws cloud map,Networking,Resource-Icons_02072025/Res_Networking-Content-Delivery/Res_AWS-Cloud-Map_Namespace_48.svg
+fine/aws cloudformation/Arch_AWS-CloudFormation_64.png,aws cloudformation,DevOps & Developer Tools,Architecture-Service-Icons_02072025/Arch_Management-Governance/64/Arch_AWS-CloudFormation_64.svg
+fine/aws cloudtrail/Res_AWS-CloudTrail_CloudTrail-Lake_48.png,aws cloudtrail,Monitoring & Logging,Resource-Icons_02072025/Res_Management-Governance/Res_AWS-CloudTrail_CloudTrail-Lake_48.svg
+fine/aws datasync/Arch_AWS-DataSync_64.png,aws datasync,Migration & Transfer,Architecture-Service-Icons_02072025/Arch_Migration-Modernization/64/Arch_AWS-DataSync_64.svg
+fine/aws direct connect/Arch_AWS-Direct-Connect_32.png,aws direct connect,Networking,Architecture-Service-Icons_02072025/Arch_Networking-Content-Delivery/32/Arch_AWS-Direct-Connect_32.svg
+fine/aws elastic beanstalk/Res_AWS-Elastic-Beanstalk_Application_48.png,aws elastic beanstalk,Compute,Resource-Icons_02072025/Res_Compute/Res_AWS-Elastic-Beanstalk_Application_48.svg
+fine/aws glue/Arch_AWS-Glue_16.png,aws glue,Analytics,Architecture-Service-Icons_02072025/Arch_Analytics/16/Arch_AWS-Glue_16.svg
+fine/aws glue/Arch_AWS-Glue_32.png,aws glue,Analytics,Architecture-Service-Icons_02072025/Arch_Analytics/32/Arch_AWS-Glue_32.svg
+fine/aws glue/Arch_AWS-Glue_48.png,aws glue,Analytics,Architecture-Service-Icons_02072025/Arch_Analytics/48/Arch_AWS-Glue_48.svg
+fine/aws iot greengrass/Res_AWS-IoT-Greengrass_Component-Private_48.png,aws iot greengrass,IoT,Resource-Icons_02072025/Res_IoT/Res_AWS-IoT-Greengrass_Component-Private_48.svg
+fine/aws iot greengrass/Res_AWS-IoT-Greengrass_Component_48.png,aws iot greengrass,IoT,Resource-Icons_02072025/Res_IoT/Res_AWS-IoT-Greengrass_Component_48.svg
+fine/aws iot greengrass/Res_AWS-IoT-Greengrass_Protocol_48.png,aws iot greengrass,IoT,Resource-Icons_02072025/Res_IoT/Res_AWS-IoT-Greengrass_Protocol_48.svg
+fine/aws iot sitewise/Res_AWS-IoT-SiteWise_Asset-Properties_48.png,aws iot sitewise,IoT,Resource-Icons_02072025/Res_IoT/Res_AWS-IoT-SiteWise_Asset-Properties_48.svg
+fine/aws iot sitewise/Res_AWS-IoT-SiteWise_Asset_48.png,aws iot sitewise,IoT,Resource-Icons_02072025/Res_IoT/Res_AWS-IoT-SiteWise_Asset_48.svg
+fine/aws iot sitewise/Res_AWS-IoT-SiteWise_Data-Streams_48.png,aws iot sitewise,IoT,Resource-Icons_02072025/Res_IoT/Res_AWS-IoT-SiteWise_Data-Streams_48.svg
+fine/aws lake formation/Arch_AWS-Lake-Formation_48.png,aws lake formation,Analytics,Architecture-Service-Icons_02072025/Arch_Analytics/48/Arch_AWS-Lake-Formation_48.svg
+fine/aws lambda/Arch_AWS-Lambda_32.png,aws lambda,Serverless & Event-driven,Architecture-Service-Icons_02072025/Arch_Compute/32/Arch_AWS-Lambda_32.svg
+fine/aws license manager/Res_AWS-License-Manager_Application-Discovery_48.png,aws license manager,Management & Governance,Resource-Icons_02072025/Res_Management-Governance/Res_AWS-License-Manager_Application-Discovery_48.svg
+fine/aws organizations/Res_AWS-Organizations_Management-Account_48.png,aws organizations,Management & Governance,Resource-Icons_02072025/Res_Management-Governance/Res_AWS-Organizations_Management-Account_48.svg
+fine/aws robomaker/Arch_AWS-RoboMaker_48.png,aws robomaker,Robotics / AR-VR,Architecture-Service-Icons_02072025/Arch_Robotics/48/Arch_AWS-RoboMaker_48.svg
+fine/aws shield/Arch_AWS-Shield_16.png,aws shield,Security & Identity,Architecture-Service-Icons_02072025/Arch_Security-Identity-Compliance/16/Arch_AWS-Shield_16.svg
+fine/aws shield/Arch_AWS-Shield_64.png,aws shield,Security & Identity,Architecture-Service-Icons_02072025/Arch_Security-Identity-Compliance/64/Arch_AWS-Shield_64.svg
+fine/aws snowball/Arch_AWS-Snowball-Edge_48.png,aws snowball,Migration & Transfer,Architecture-Service-Icons_02072025/Arch_Storage/48/Arch_AWS-Snowball-Edge_48.svg
+fine/aws snowball/Arch_AWS-Snowball-Edge_64.png,aws snowball,Migration & Transfer,Architecture-Service-Icons_02072025/Arch_Storage/64/Arch_AWS-Snowball-Edge_64.svg
+fine/aws systems manager/Arch_AWS-Systems-Manager_64.png,aws systems manager,Management & Governance,Architecture-Service-Icons_02072025/Arch_Management-Governance/64/Arch_AWS-Systems-Manager_64.svg
+fine/aws systems manager/Res_AWS-Systems-Manager_Change-Manager_48.png,aws systems manager,Management & Governance,Resource-Icons_02072025/Res_Management-Governance/Res_AWS-Systems-Manager_Change-Manager_48.svg
+fine/aws systems manager/Res_AWS-Systems-Manager_Session-Manager_48.png,aws systems manager,Management & Governance,Resource-Icons_02072025/Res_Management-Governance/Res_AWS-Systems-Manager_Session-Manager_48.svg
+fine/aws transfer family/Res_AWS-Transfer-Family_AWS-SFTP_48.png,aws transfer family,Migration & Transfer,Resource-Icons_02072025/Res_Migration-Modernization/Res_AWS-Transfer-Family_AWS-SFTP_48.svg
+fine/aws transit gateway/Res_AWS-Transit-Gateway_Attachment_48.png,aws transit gateway,Networking,Resource-Icons_02072025/Res_Networking-Content-Delivery/Res_AWS-Transit-Gateway_Attachment_48.svg
+fine/aws trusted advisor/Res_AWS-Trusted-Advisor_Checklist-Fault-Tolerant_48.png,aws trusted advisor,Management & Governance,Resource-Icons_02072025/Res_Management-Governance/Res_AWS-Trusted-Advisor_Checklist-Fault-Tolerant_48.svg
+fine/aws waf/Arch_AWS-WAF_48.png,aws waf,Security & Identity,Architecture-Service-Icons_02072025/Arch_Security-Identity-Compliance/48/Arch_AWS-WAF_48.svg
+fine/elastic load balancing/Arch_Elastic-Load-Balancing_32.png,elastic load balancing,Networking,Architecture-Service-Icons_02072025/Arch_Networking-Content-Delivery/32/Arch_Elastic-Load-Balancing_32.svg
+fine/elastic load balancing/Res_Elastic-Load-Balancing_Classic-Load-Balancer_48.png,elastic load balancing,Networking,Resource-Icons_02072025/Res_Networking-Content-Delivery/Res_Elastic-Load-Balancing_Classic-Load-Balancer_48.svg
