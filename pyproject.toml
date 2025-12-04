@@ -1,0 +1,73 @@
+# pyproject.toml
+[project]
+name = "hit-archlens"
+version = "1.0.0"
+description = "멀티 클라우드 아키텍처 다이어그램 자동 분석 프레임워크"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    # CLI Framework
+    "click>=8.1.0",
+    
+    # Data Processing
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "pyyaml>=6.0.0",
+    "python-dotenv>=1.0.0",
+    
+    # Computer Vision
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "opencv-python>=4.8.0",
+    "pillow>=10.0.0",
+    "open-clip-torch>=2.20.0",
+    "faiss-cpu>=1.7.4",  # 또는 faiss-gpu
+    "easyocr>=1.7.0",
+    
+    # Language Models
+    "openai>=1.0.0",
+    "anthropic>=0.7.0",
+    "requests>=2.31.0",
+    
+    # Utilities
+    "tqdm>=4.65.0",
+    "rapidfuzz>=3.0.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    
+    # AWS
+    "boto3>=1.28.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "mypy>=1.6.0",
+    "flake8>=6.1.0",
+]
+
+[project.scripts]
+archlens = "backend.tools.cli:cli"
+
+[tool.setuptools]
+packages = ["backend"]
+
+[tool.setuptools.package-data]
+backend = ["**/*.yaml", "**/*.yml", "**/*.json"]
+
+[tool.black]
+line-length = 100
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+

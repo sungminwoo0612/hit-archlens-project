@@ -1,0 +1,101 @@
+AWS App Mesh
+AWS App Runner
+AWS AppSync
+AWS Backup
+AWS Batch
+AWS Cloud Map
+AWS CloudFormation
+AWS CloudTrail
+AWS CodeArtifact
+AWS CodeBuild
+AWS CodeCommit
+AWS CodeDeploy
+AWS CodePipeline
+AWS Config
+AWS Control Tower
+AWS DataSync
+AWS Database Migration Service
+AWS Direct Connect
+AWS Elastic Beanstalk
+AWS Elemental MediaConvert
+AWS Elemental MediaLive
+AWS Elemental MediaPackage
+AWS Elemental MediaStore
+AWS Elemental MediaTailor
+AWS Fargate
+AWS Global Accelerator
+AWS Glue
+AWS Identity and Access Management (IAM)
+AWS IoT Analytics
+AWS IoT Core
+AWS IoT Events
+AWS IoT Greengrass
+AWS IoT SiteWise
+AWS Key Management Service (KMS)
+AWS Lake Formation
+AWS Lambda
+AWS License Manager
+AWS Organizations
+AWS RoboMaker
+AWS Secrets Manager
+AWS Security Hub
+AWS Shield
+AWS Snowball
+AWS Step Functions
+AWS Storage Gateway
+AWS Systems Manager
+AWS Transfer Family
+AWS Transit Gateway
+AWS Trusted Advisor
+AWS WAF
+AWS X-Ray
+Amazon API Gateway
+Amazon Athena
+Amazon Aurora
+Amazon Bedrock
+Amazon Braket
+Amazon Chime
+Amazon CloudWatch
+Amazon Cognito
+Amazon Comprehend
+Amazon Connect
+Amazon DocumentDB
+Amazon DynamoDB
+Amazon EC2
+Amazon ECR
+Amazon ECS
+Amazon EFS
+Amazon EKS
+Amazon EMR
+Amazon ElastiCache
+Amazon EventBridge
+Amazon FSx
+Amazon GuardDuty
+Amazon Kinesis Data Analytics
+Amazon Kinesis Data Firehose
+Amazon Kinesis Data Streams
+Amazon Lightsail
+Amazon MQ
+Amazon MSK
+Amazon Macie
+Amazon Managed Blockchain
+Amazon Neptune
+Amazon OpenSearch Service
+Amazon Polly
+Amazon QuickSight
+Amazon RDS
+Amazon Redshift
+Amazon Rekognition
+Amazon Route 53
+Amazon S3
+Amazon SNS
+Amazon SQS
+Amazon SageMaker
+Amazon Textract
+Amazon Transcribe
+Amazon Translate
+Amazon VPC
+Amazon WorkDocs
+Amazon WorkMail
+Amazon WorkSpaces
+Elastic Load Balancing
