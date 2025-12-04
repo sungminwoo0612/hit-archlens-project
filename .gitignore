@@ -107,3 +107,7 @@ celerybeat.pid
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# YOLO model weights (except weights/ folder)
+*.pt
+!weights/*.pt
