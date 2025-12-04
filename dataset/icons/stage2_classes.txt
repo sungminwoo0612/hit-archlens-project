@@ -1,0 +1,64 @@
+amazon comprehend
+amazon rekognition
+amazon sagemaker
+amazon textract
+amazon athena
+amazon emr
+amazon opensearch service
+amazon quicksight
+aws glue
+aws lake formation
+amazon api gateway
+amazon mq
+aws app mesh
+amazon managed blockchain
+amazon chime
+amazon connect
+amazon workdocs
+amazon workspaces
+amazon ec2
+amazon lightsail
+aws batch
+aws elastic beanstalk
+amazon ecs
+amazon eks
+amazon aurora
+amazon documentdb
+amazon dynamodb
+amazon elasticache
+amazon rds
+amazon redshift
+aws cloudformation
+aws iot analytics
+aws iot core
+aws iot greengrass
+aws iot sitewise
+aws license manager
+aws organizations
+aws systems manager
+aws trusted advisor
+aws database migration service
+aws datasync
+aws snowball
+aws transfer family
+amazon cloudwatch
+aws cloudtrail
+aws config
+amazon route 53
+amazon vpc
+aws cloud map
+aws direct connect
+aws transit gateway
+elastic load balancing
+amazon braket
+aws robomaker
+aws security hub
+aws shield
+aws waf
+amazon eventbridge
+aws lambda
+amazon efs
+amazon fsx
+amazon s3
+aws backup
+aws storage gateway

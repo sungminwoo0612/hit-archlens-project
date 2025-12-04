@@ -1,0 +1,119 @@
+alb
+amplify
+api gateway
+app mesh
+app runner
+appconfig
+application migration service
+appsync
+athena
+aurora
+auto scaling
+backup
+batch
+bedrock
+braket
+cdk
+certificate manager
+chime
+clb
+cloud map
+cloud9
+cloudformation
+cloudfront
+cloudtrail
+cloudwatch
+codeartifact
+codebuild
+codecatalyst
+codecommit
+codedeploy
+codepipeline
+cognito
+comprehend
+config
+connect
+control tower
+database migration service
+datasync
+direct connect
+documentdb
+dynamodb
+ec2
+ecr
+ecs
+efs
+eks
+elastic beanstalk
+elasticache
+elb
+emr
+eventbridge
+fargate
+fsx
+glb
+global accelerator
+glue
+guardduty
+iam
+identity center
+iot analytics
+iot core
+iot greengrass
+iot sitewise
+kendra
+kinesis data analytics
+kinesis data firehose
+kinesis data streams
+kms
+lake formation
+lambda
+lex
+license manager
+lightsail
+managed blockchain
+managed grafana
+managed prometheus
+mq
+msk
+neptune
+network firewall
+nlb
+opensearch service
+organizations
+polly
+privatelink
+quicksight
+rds
+redshift
+rekognition
+robomaker
+route 53
+s3
+s3 glacier
+s3 glacier deep archive
+sagemaker
+sdk
+secrets manager
+security hub
+ses
+shield
+site-to-site vpn
+snowball
+sns
+sqs
+step functions
+storage gateway
+systems manager
+textract
+transcribe
+transfer family
+transit gateway
+translate
+trusted advisor
+vpc
+vpc endpoints
+waf
+workdocs
+workspaces
+x-ray

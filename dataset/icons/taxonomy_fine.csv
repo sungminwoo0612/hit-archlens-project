@@ -1,0 +1,65 @@
+coarse_class,canonical_service_name,num_icons
+AI & Machine Learning,amazon comprehend,8
+AI & Machine Learning,amazon rekognition,6
+AI & Machine Learning,amazon sagemaker,22
+AI & Machine Learning,amazon textract,5
+Analytics,amazon athena,5
+Analytics,amazon emr,7
+Analytics,amazon opensearch service,11
+Analytics,amazon quicksight,5
+Analytics,aws glue,12
+Analytics,aws lake formation,5
+Application Integration,amazon api gateway,5
+Application Integration,amazon mq,6
+Application Integration,aws app mesh,9
+Blockchain,amazon managed blockchain,5
+Business Applications,amazon chime,8
+Business Applications,amazon connect,15
+Business Applications,amazon workdocs,8
+Business Applications,amazon workspaces,7
+Compute,amazon ec2,23
+Compute,amazon lightsail,8
+Compute,aws batch,5
+Compute,aws elastic beanstalk,6
+Containers & Orchestration,amazon ecs,5
+Containers & Orchestration,amazon eks,13
+Database,amazon aurora,18
+Database,amazon documentdb,5
+Database,amazon dynamodb,14
+Database,amazon elasticache,8
+Database,amazon rds,14
+Database,amazon redshift,12
+DevOps & Developer Tools,aws cloudformation,7
+IoT,aws iot analytics,9
+IoT,aws iot core,6
+IoT,aws iot greengrass,15
+IoT,aws iot sitewise,9
+Management & Governance,aws license manager,6
+Management & Governance,aws organizations,7
+Management & Governance,aws systems manager,20
+Management & Governance,aws trusted advisor,9
+Migration & Transfer,aws database migration service,5
+Migration & Transfer,aws datasync,6
+Migration & Transfer,aws snowball,9
+Migration & Transfer,aws transfer family,8
+Monitoring & Logging,amazon cloudwatch,15
+Monitoring & Logging,aws cloudtrail,5
+Monitoring & Logging,aws config,8
+Networking,amazon route 53,11
+Networking,amazon vpc,23
+Networking,aws cloud map,8
+Networking,aws direct connect,5
+Networking,aws transit gateway,6
+Networking,elastic load balancing,8
+Quantum,amazon braket,17
+Robotics / AR-VR,aws robomaker,8
+Security & Identity,aws security hub,5
+Security & Identity,aws shield,7
+Security & Identity,aws waf,11
+Serverless & Event-driven,amazon eventbridge,13
+Serverless & Event-driven,aws lambda,6
+Storage,amazon efs,9
+Storage,amazon fsx,22
+Storage,amazon s3,25
+Storage,aws backup,21
+Storage,aws storage gateway,10

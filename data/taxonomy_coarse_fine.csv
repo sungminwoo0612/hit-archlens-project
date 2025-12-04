@@ -1,0 +1,102 @@
+canonical_service_name,service_code,coarse_class,include_fine
+Amazon EC2,ec2,Compute,True
+AWS Batch,batch,Compute,True
+AWS Elastic Beanstalk,elasticbeanstalk,Compute,True
+Amazon Lightsail,lightsail,Compute,True
+Amazon VPC,ec2,Networking,True
+Elastic Load Balancing,elasticloadbalancing,Networking,True
+Amazon Route 53,route53,Networking,True
+AWS Global Accelerator,globalaccelerator,Networking,True
+AWS Direct Connect,directconnect,Networking,True
+AWS Transit Gateway,ec2,Networking,True
+AWS Cloud Map,servicediscovery,Networking,True
+Amazon S3,s3,Storage,True
+Amazon EFS,efs,Storage,True
+Amazon FSx,fsx,Storage,True
+AWS Backup,backup,Storage,True
+AWS Storage Gateway,storagegateway,Storage,True
+Amazon RDS,rds,Database,True
+Amazon Aurora,rds,Database,True
+Amazon DynamoDB,dynamodb,Database,True
+Amazon Redshift,redshift,Database,True
+Amazon ElastiCache,elasticache,Database,True
+Amazon DocumentDB,docdb,Database,True
+Amazon Neptune,neptune,Database,True
+Amazon ECS,ecs,Containers & Orchestration,True
+Amazon EKS,eks,Containers & Orchestration,True
+AWS Fargate,fargate,Containers & Orchestration,True
+AWS App Runner,apprunner,Containers & Orchestration,True
+Amazon ECR,ecr,Containers & Orchestration,True
+AWS Lambda,lambda,Serverless & Event-driven,True
+Amazon EventBridge,events,Serverless & Event-driven,True
+AWS Step Functions,states,Serverless & Event-driven,True
+Amazon SNS,sns,Serverless & Event-driven,True
+Amazon SQS,sqs,Serverless & Event-driven,True
+Amazon API Gateway,apigateway,Application Integration,True
+AWS AppSync,appsync,Application Integration,True
+Amazon MQ,mq,Application Integration,True
+Amazon MSK,kafka,Application Integration,True
+AWS App Mesh,appmesh,Application Integration,True
+Amazon Kinesis Data Streams,kinesis,Analytics,True
+Amazon Kinesis Data Firehose,firehose,Analytics,True
+Amazon Kinesis Data Analytics,kinesisanalytics,Analytics,True
+AWS Glue,glue,Analytics,True
+Amazon Athena,athena,Analytics,True
+Amazon EMR,emr,Analytics,True
+Amazon OpenSearch Service,opensearch,Analytics,True
+Amazon QuickSight,quicksight,Analytics,True
+AWS Lake Formation,lakeformation,Analytics,True
+Amazon SageMaker,sagemaker,AI & Machine Learning,True
+Amazon Comprehend,comprehend,AI & Machine Learning,True
+Amazon Rekognition,rekognition,AI & Machine Learning,True
+Amazon Textract,textract,AI & Machine Learning,True
+Amazon Transcribe,transcribe,AI & Machine Learning,True
+Amazon Polly,polly,AI & Machine Learning,True
+Amazon Translate,translate,AI & Machine Learning,True
+Amazon Bedrock,bedrock,AI & Machine Learning,True
+AWS Identity and Access Management (IAM),iam,Security & Identity,True
+Amazon Cognito,cognito-idp,Security & Identity,True
+AWS Key Management Service (KMS),kms,Security & Identity,True
+AWS Secrets Manager,secretsmanager,Security & Identity,True
+AWS Shield,shield,Security & Identity,True
+AWS WAF,waf,Security & Identity,True
+Amazon GuardDuty,guardduty,Security & Identity,True
+AWS Security Hub,securityhub,Security & Identity,True
+Amazon Macie,macie,Security & Identity,True
+Amazon CloudWatch,cloudwatch,Monitoring & Logging,True
+AWS CloudTrail,cloudtrail,Monitoring & Logging,True
+AWS X-Ray,xray,Monitoring & Logging,True
+AWS Config,config,Monitoring & Logging,True
+AWS Systems Manager,ssm,Management & Governance,True
+AWS Control Tower,controltower,Management & Governance,True
+AWS Organizations,organizations,Management & Governance,True
+AWS License Manager,license-manager,Management & Governance,True
+AWS Trusted Advisor,trustedadvisor,Management & Governance,True
+AWS CodeCommit,codecommit,DevOps & Developer Tools,True
+AWS CodeBuild,codebuild,DevOps & Developer Tools,True
+AWS CodeDeploy,codedeploy,DevOps & Developer Tools,True
+AWS CodePipeline,codepipeline,DevOps & Developer Tools,True
+AWS CodeArtifact,codeartifact,DevOps & Developer Tools,True
+AWS CloudFormation,cloudformation,DevOps & Developer Tools,True
+AWS Database Migration Service,dms,Migration & Transfer,True
+AWS DataSync,datasync,Migration & Transfer,True
+AWS Snowball,snowball,Migration & Transfer,True
+AWS Transfer Family,transfer,Migration & Transfer,True
+Amazon WorkSpaces,workspaces,Business Applications,True
+Amazon WorkDocs,workdocs,Business Applications,True
+Amazon WorkMail,workmail,Business Applications,True
+Amazon Connect,connect,Business Applications,True
+Amazon Chime,chime,Business Applications,True
+AWS IoT Core,iot,IoT,True
+AWS IoT Greengrass,greengrass,IoT,True
+AWS IoT Analytics,iotanalytics,IoT,True
+AWS IoT SiteWise,sitewise,IoT,True
+AWS IoT Events,iotevents,IoT,True
+AWS Elemental MediaConvert,mediaconvert,Media Services,True
+AWS Elemental MediaLive,medialive,Media Services,True
+AWS Elemental MediaPackage,mediapackage,Media Services,True
+AWS Elemental MediaStore,mediastore,Media Services,True
+AWS Elemental MediaTailor,mediatailor,Media Services,True
+Amazon Managed Blockchain,managedblockchain,Blockchain,True
+Amazon Braket,braket,Quantum,True
+AWS RoboMaker,robomaker,Robotics / AR-VR,True

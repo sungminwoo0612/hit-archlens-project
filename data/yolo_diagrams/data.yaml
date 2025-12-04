@@ -1,0 +1,124 @@
+path: /home/wsm/workspace/hit-archlens-project/data/yolo_diagrams
+train: images/train
+val: images/val
+
+names:
+  0: alb
+  1: amplify
+  2: api gateway
+  3: app mesh
+  4: app runner
+  5: appconfig
+  6: application migration service
+  7: appsync
+  8: athena
+  9: aurora
+  10: auto scaling
+  11: backup
+  12: batch
+  13: bedrock
+  14: braket
+  15: cdk
+  16: certificate manager
+  17: chime
+  18: clb
+  19: cloud map
+  20: cloud9
+  21: cloudformation
+  22: cloudfront
+  23: cloudtrail
+  24: cloudwatch
+  25: codeartifact
+  26: codebuild
+  27: codecatalyst
+  28: codecommit
+  29: codedeploy
+  30: codepipeline
+  31: cognito
+  32: comprehend
+  33: config
+  34: connect
+  35: control tower
+  36: database migration service
+  37: datasync
+  38: direct connect
+  39: documentdb
+  40: dynamodb
+  41: ec2
+  42: ecr
+  43: ecs
+  44: efs
+  45: eks
+  46: elastic beanstalk
+  47: elasticache
+  48: elb
+  49: emr
+  50: eventbridge
+  51: fargate
+  52: fsx
+  53: glb
+  54: global accelerator
+  55: glue
+  56: guardduty
+  57: iam
+  58: identity center
+  59: iot analytics
+  60: iot core
+  61: iot greengrass
+  62: iot sitewise
+  63: kendra
+  64: kinesis data analytics
+  65: kinesis data firehose
+  66: kinesis data streams
+  67: kms
+  68: lake formation
+  69: lambda
+  70: lex
+  71: license manager
+  72: lightsail
+  73: managed blockchain
+  74: managed grafana
+  75: managed prometheus
+  76: mq
+  77: msk
+  78: neptune
+  79: network firewall
+  80: nlb
+  81: opensearch service
+  82: organizations
+  83: polly
+  84: privatelink
+  85: quicksight
+  86: rds
+  87: redshift
+  88: rekognition
+  89: robomaker
+  90: route 53
+  91: s3
+  92: s3 glacier
+  93: s3 glacier deep archive
+  94: sagemaker
+  95: sdk
+  96: secrets manager
+  97: security hub
+  98: ses
+  99: shield
+  100: site-to-site vpn
+  101: snowball
+  102: sns
+  103: sqs
+  104: step functions
+  105: storage gateway
+  106: systems manager
+  107: textract
+  108: transcribe
+  109: transfer family
+  110: transit gateway
+  111: translate
+  112: trusted advisor
+  113: vpc
+  114: vpc endpoints
+  115: waf
+  116: workdocs
+  117: workspaces
+  118: x-ray

@@ -1,0 +1,65 @@
+names:
+  0: amazon api gateway
+  1: amazon athena
+  2: amazon aurora
+  3: amazon braket
+  4: amazon chime
+  5: amazon cloudwatch
+  6: amazon comprehend
+  7: amazon connect
+  8: amazon documentdb
+  9: amazon dynamodb
+  10: amazon ec2
+  11: amazon ecs
+  12: amazon efs
+  13: amazon eks
+  14: amazon elasticache
+  15: amazon emr
+  16: amazon eventbridge
+  17: amazon fsx
+  18: amazon lightsail
+  19: amazon managed blockchain
+  20: amazon mq
+  21: amazon opensearch service
+  22: amazon quicksight
+  23: amazon rds
+  24: amazon redshift
+  25: amazon rekognition
+  26: amazon route 53
+  27: amazon s3
+  28: amazon sagemaker
+  29: amazon textract
+  30: amazon vpc
+  31: amazon workdocs
+  32: amazon workspaces
+  33: aws app mesh
+  34: aws backup
+  35: aws batch
+  36: aws cloud map
+  37: aws cloudformation
+  38: aws cloudtrail
+  39: aws config
+  40: aws database migration service
+  41: aws datasync
+  42: aws direct connect
+  43: aws elastic beanstalk
+  44: aws glue
+  45: aws iot analytics
+  46: aws iot core
+  47: aws iot greengrass
+  48: aws iot sitewise
+  49: aws lake formation
+  50: aws lambda
+  51: aws license manager
+  52: aws organizations
+  53: aws robomaker
+  54: aws security hub
+  55: aws shield
+  56: aws snowball
+  57: aws storage gateway
+  58: aws systems manager
+  59: aws transfer family
+  60: aws transit gateway
+  61: aws trusted advisor
+  62: aws waf
+  63: elastic load balancing

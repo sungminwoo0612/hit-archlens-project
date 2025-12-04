@@ -1,0 +1,609 @@
+{
+  "coarse_classes": [
+    {
+      "name": "Compute",
+      "fine_services": [
+        {
+          "canonical_service_name": "Amazon EC2",
+          "service_code": "ec2",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Batch",
+          "service_code": "batch",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Elastic Beanstalk",
+          "service_code": "elasticbeanstalk",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Lightsail",
+          "service_code": "lightsail",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Networking",
+      "fine_services": [
+        {
+          "canonical_service_name": "Amazon VPC",
+          "service_code": "ec2",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Elastic Load Balancing",
+          "service_code": "elasticloadbalancing",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Route 53",
+          "service_code": "route53",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Global Accelerator",
+          "service_code": "globalaccelerator",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Direct Connect",
+          "service_code": "directconnect",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Transit Gateway",
+          "service_code": "ec2",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Cloud Map",
+          "service_code": "servicediscovery",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Storage",
+      "fine_services": [
+        {
+          "canonical_service_name": "Amazon S3",
+          "service_code": "s3",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon EFS",
+          "service_code": "efs",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon FSx",
+          "service_code": "fsx",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Backup",
+          "service_code": "backup",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Storage Gateway",
+          "service_code": "storagegateway",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Database",
+      "fine_services": [
+        {
+          "canonical_service_name": "Amazon RDS",
+          "service_code": "rds",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Aurora",
+          "service_code": "rds",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon DynamoDB",
+          "service_code": "dynamodb",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Redshift",
+          "service_code": "redshift",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon ElastiCache",
+          "service_code": "elasticache",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon DocumentDB",
+          "service_code": "docdb",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Neptune",
+          "service_code": "neptune",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Containers & Orchestration",
+      "fine_services": [
+        {
+          "canonical_service_name": "Amazon ECS",
+          "service_code": "ecs",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon EKS",
+          "service_code": "eks",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Fargate",
+          "service_code": "fargate",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS App Runner",
+          "service_code": "apprunner",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon ECR",
+          "service_code": "ecr",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Serverless & Event-driven",
+      "fine_services": [
+        {
+          "canonical_service_name": "AWS Lambda",
+          "service_code": "lambda",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon EventBridge",
+          "service_code": "events",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Step Functions",
+          "service_code": "states",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon SNS",
+          "service_code": "sns",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon SQS",
+          "service_code": "sqs",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Application Integration",
+      "fine_services": [
+        {
+          "canonical_service_name": "Amazon API Gateway",
+          "service_code": "apigateway",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS AppSync",
+          "service_code": "appsync",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon MQ",
+          "service_code": "mq",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon MSK",
+          "service_code": "kafka",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS App Mesh",
+          "service_code": "appmesh",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Analytics",
+      "fine_services": [
+        {
+          "canonical_service_name": "Amazon Kinesis Data Streams",
+          "service_code": "kinesis",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Kinesis Data Firehose",
+          "service_code": "firehose",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Kinesis Data Analytics",
+          "service_code": "kinesisanalytics",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Glue",
+          "service_code": "glue",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Athena",
+          "service_code": "athena",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon EMR",
+          "service_code": "emr",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon OpenSearch Service",
+          "service_code": "opensearch",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon QuickSight",
+          "service_code": "quicksight",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Lake Formation",
+          "service_code": "lakeformation",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "fine_services": [
+        {
+          "canonical_service_name": "Amazon SageMaker",
+          "service_code": "sagemaker",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Comprehend",
+          "service_code": "comprehend",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Rekognition",
+          "service_code": "rekognition",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Textract",
+          "service_code": "textract",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Transcribe",
+          "service_code": "transcribe",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Polly",
+          "service_code": "polly",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Translate",
+          "service_code": "translate",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Bedrock",
+          "service_code": "bedrock",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Security & Identity",
+      "fine_services": [
+        {
+          "canonical_service_name": "AWS Identity and Access Management (IAM)",
+          "service_code": "iam",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Cognito",
+          "service_code": "cognito-idp",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Key Management Service (KMS)",
+          "service_code": "kms",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Secrets Manager",
+          "service_code": "secretsmanager",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Shield",
+          "service_code": "shield",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS WAF",
+          "service_code": "waf",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon GuardDuty",
+          "service_code": "guardduty",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Security Hub",
+          "service_code": "securityhub",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Macie",
+          "service_code": "macie",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Monitoring & Logging",
+      "fine_services": [
+        {
+          "canonical_service_name": "Amazon CloudWatch",
+          "service_code": "cloudwatch",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS CloudTrail",
+          "service_code": "cloudtrail",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS X-Ray",
+          "service_code": "xray",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Config",
+          "service_code": "config",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Management & Governance",
+      "fine_services": [
+        {
+          "canonical_service_name": "AWS Systems Manager",
+          "service_code": "ssm",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Control Tower",
+          "service_code": "controltower",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Organizations",
+          "service_code": "organizations",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS License Manager",
+          "service_code": "license-manager",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Trusted Advisor",
+          "service_code": "trustedadvisor",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "DevOps & Developer Tools",
+      "fine_services": [
+        {
+          "canonical_service_name": "AWS CodeCommit",
+          "service_code": "codecommit",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS CodeBuild",
+          "service_code": "codebuild",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS CodeDeploy",
+          "service_code": "codedeploy",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS CodePipeline",
+          "service_code": "codepipeline",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS CodeArtifact",
+          "service_code": "codeartifact",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS CloudFormation",
+          "service_code": "cloudformation",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Migration & Transfer",
+      "fine_services": [
+        {
+          "canonical_service_name": "AWS Database Migration Service",
+          "service_code": "dms",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS DataSync",
+          "service_code": "datasync",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Snowball",
+          "service_code": "snowball",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Transfer Family",
+          "service_code": "transfer",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Business Applications",
+      "fine_services": [
+        {
+          "canonical_service_name": "Amazon WorkSpaces",
+          "service_code": "workspaces",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon WorkDocs",
+          "service_code": "workdocs",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon WorkMail",
+          "service_code": "workmail",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Connect",
+          "service_code": "connect",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "Amazon Chime",
+          "service_code": "chime",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "IoT",
+      "fine_services": [
+        {
+          "canonical_service_name": "AWS IoT Core",
+          "service_code": "iot",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS IoT Greengrass",
+          "service_code": "greengrass",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS IoT Analytics",
+          "service_code": "iotanalytics",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS IoT SiteWise",
+          "service_code": "sitewise",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS IoT Events",
+          "service_code": "iotevents",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Media Services",
+      "fine_services": [
+        {
+          "canonical_service_name": "AWS Elemental MediaConvert",
+          "service_code": "mediaconvert",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Elemental MediaLive",
+          "service_code": "medialive",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Elemental MediaPackage",
+          "service_code": "mediapackage",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Elemental MediaStore",
+          "service_code": "mediastore",
+          "include_fine": true
+        },
+        {
+          "canonical_service_name": "AWS Elemental MediaTailor",
+          "service_code": "mediatailor",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Blockchain",
+      "fine_services": [
+        {
+          "canonical_service_name": "Amazon Managed Blockchain",
+          "service_code": "managedblockchain",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Quantum",
+      "fine_services": [
+        {
+          "canonical_service_name": "Amazon Braket",
+          "service_code": "braket",
+          "include_fine": true
+        }
+      ]
+    },
+    {
+      "name": "Robotics / AR-VR",
+      "fine_services": [
+        {
+          "canonical_service_name": "AWS RoboMaker",
+          "service_code": "robomaker",
+          "include_fine": true
+        }
+      ]
+    }
+  ]
+}

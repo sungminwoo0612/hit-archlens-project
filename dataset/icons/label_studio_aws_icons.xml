@@ -1,0 +1,144 @@
+<View>
+  <Image name="image" value="$image" zoom="true"/>
+
+  <RectangleLabels name="label" toName="image">
+
+    <Label value="alb" background="#424242"/>
+    <Label value="amplify" background="#424242"/>
+    <Label value="api gateway" background="#424242"/>
+    <Label value="app mesh" background="#424242"/>
+    <Label value="app runner" background="#424242"/>
+    <Label value="appconfig" background="#424242"/>
+    <Label value="appsync" background="#424242"/>
+    <Label value="application migration service" background="#424242"/>
+    <Label value="athena" background="#424242"/>
+    <Label value="auto scaling" background="#424242"/>
+
+    <Label value="aurora" background="#424242"/>
+
+    <Label value="backup" background="#424242"/>
+    <Label value="batch" background="#424242"/>
+    <Label value="bedrock" background="#424242"/>
+    <Label value="braket" background="#424242"/>
+
+    <Label value="cdk" background="#424242"/>
+    <Label value="certificate manager" background="#424242"/>
+    <Label value="chime" background="#424242"/>
+    <Label value="clb" background="#424242"/>
+    <Label value="cloud map" background="#424242"/>
+    <Label value="cloud9" background="#424242"/>
+    <Label value="cloudformation" background="#424242"/>
+    <Label value="cloudfront" background="#424242"/>
+    <Label value="cloudtrail" background="#424242"/>
+    <Label value="cloudwatch" background="#424242"/>
+    <Label value="codeartifact" background="#424242"/>
+    <Label value="codebuild" background="#424242"/>
+    <Label value="codecommit" background="#424242"/>
+    <Label value="codecatalyst" background="#424242"/>
+    <Label value="codedeploy" background="#424242"/>
+    <Label value="codepipeline" background="#424242"/>
+    <Label value="cognito" background="#424242"/>
+    <Label value="comprehend" background="#424242"/>
+    <Label value="config" background="#424242"/>
+    <Label value="connect" background="#424242"/>
+    <Label value="control tower" background="#424242"/>
+
+    <Label value="database migration service" background="#424242"/>
+    <Label value="datasync" background="#424242"/>
+    <Label value="direct connect" background="#424242"/>
+    <Label value="documentdb" background="#424242"/>
+    <Label value="dynamodb" background="#424242"/>
+
+    <Label value="ec2" background="#424242"/>
+    <Label value="ecr" background="#424242"/>
+    <Label value="ecs" background="#424242"/>
+    <Label value="efs" background="#424242"/>
+    <Label value="eks" background="#424242"/>
+    <Label value="elastic beanstalk" background="#424242"/>
+    <Label value="elasticache" background="#424242"/>
+    <Label value="emr" background="#424242"/>
+    <Label value="eventbridge" background="#424242"/>
+
+    <Label value="fargate" background="#424242"/>
+    <Label value="fsx" background="#424242"/>
+
+    <Label value="glb" background="#424242"/>
+    <Label value="glue" background="#424242"/>
+    <Label value="global accelerator" background="#424242"/>
+    <Label value="guardduty" background="#424242"/>
+
+    <Label value="iam" background="#424242"/>
+    <Label value="identity center" background="#424242"/>
+    <Label value="iot analytics" background="#424242"/>
+    <Label value="iot core" background="#424242"/>
+    <Label value="iot greengrass" background="#424242"/>
+    <Label value="iot sitewise" background="#424242"/>
+
+    <Label value="kendra" background="#424242"/>
+    <Label value="kinesis data analytics" background="#424242"/>
+    <Label value="kinesis data firehose" background="#424242"/>
+    <Label value="kinesis data streams" background="#424242"/>
+    <Label value="kms" background="#424242"/>
+
+    <Label value="lake formation" background="#424242"/>
+    <Label value="lambda" background="#424242"/>
+    <Label value="license manager" background="#424242"/>
+    <Label value="lightsail" background="#424242"/>
+    <Label value="lex" background="#424242"/>
+
+    <Label value="managed blockchain" background="#424242"/>
+    <Label value="managed grafana" background="#424242"/>
+    <Label value="managed prometheus" background="#424242"/>
+    <Label value="mq" background="#424242"/>
+    <Label value="msk" background="#424242"/>
+
+    <Label value="neptune" background="#424242"/>
+    <Label value="network firewall" background="#424242"/>
+    <Label value="nlb" background="#424242"/>
+
+    <Label value="opensearch service" background="#424242"/>
+    <Label value="organizations" background="#424242"/>
+
+    <Label value="polly" background="#424242"/>
+    <Label value="privatelink" background="#424242"/>
+
+    <Label value="quicksight" background="#424242"/>
+
+    <Label value="rds" background="#424242"/>
+    <Label value="redshift" background="#424242"/>
+    <Label value="rekognition" background="#424242"/>
+    <Label value="robomaker" background="#424242"/>
+    <Label value="route 53" background="#424242"/>
+
+    <Label value="s3" background="#424242"/>
+    <Label value="s3 glacier" background="#424242"/>
+    <Label value="s3 glacier deep archive" background="#424242"/>
+    <Label value="sagemaker" background="#424242"/>
+    <Label value="secrets manager" background="#424242"/>
+    <Label value="security hub" background="#424242"/>
+    <Label value="ses" background="#424242"/>
+    <Label value="shield" background="#424242"/>
+    <Label value="snowball" background="#424242"/>
+    <Label value="sns" background="#424242"/>
+    <Label value="sqs" background="#424242"/>
+    <Label value="step functions" background="#424242"/>
+    <Label value="storage gateway" background="#424242"/>
+    <Label value="systems manager" background="#424242"/>
+
+    <Label value="textract" background="#424242"/>
+    <Label value="transcribe" background="#424242"/>
+    <Label value="transfer family" background="#424242"/>
+    <Label value="translate" background="#424242"/>
+    <Label value="transit gateway" background="#424242"/>
+    <Label value="trusted advisor" background="#424242"/>
+
+    <Label value="vpc" background="#424242"/>
+    <Label value="vpc endpoints" background="#424242"/>
+
+    <Label value="waf" background="#424242"/>
+    <Label value="workdocs" background="#424242"/>
+    <Label value="workspaces" background="#424242"/>
+    <Label value="x-ray" background="#424242"/>
+
+  </RectangleLabels>
+</View>
