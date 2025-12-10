@@ -268,17 +268,36 @@ python scripts/predict_yolo_cls.py \
 
 ### 상세 가이드
 
+## 📊 실험 결과
+
+### 최고 성능 실험: YOLO Classification (yolo-cls16)
+
+최고 성능을 달성한 YOLO Classification 실험 결과입니다.
+
+**성능 지표:**
+- Top-1 Accuracy: 높은 정확도 달성
+- Top-5 Accuracy: 우수한 성능
+
+**시각화 결과:**
+
+| 항목 | 이미지 |
+|------|--------|
+| 학습 곡선 | [Results](experiments/classification/runs/classify/yolo-cls16/results.png) |
+| Confusion Matrix | [Confusion Matrix](experiments/classification/runs/classify/yolo-cls16/confusion_matrix.png) |
+| 정규화된 Confusion Matrix | [Normalized CM](experiments/classification/runs/classify/yolo-cls16/confusion_matrix_normalized.png) |
+| 검증 예측 결과 (Batch 0) | [Val Batch 0](experiments/classification/runs/classify/yolo-cls16/val_batch0_pred.jpg) |
+| 검증 예측 결과 (Batch 1) | [Val Batch 1](experiments/classification/runs/classify/yolo-cls16/val_batch1_pred.jpg) |
+
+더 자세한 실험 결과는 [experiments/README.md](experiments/README.md)를 참고하세요.
+
 ## 📚 문서
 
 프로젝트의 모든 문서는 `docs/` 디렉터리에 체계적으로 정리되어 있습니다.
 
-- **[문서 인덱스](docs/README.md)**: 전체 문서 목록 및 구조
-- **계획 문서** (`docs/01_plans/`): 디렉터리 재구성 계획
-- **사용 가이드** (`docs/02_guides/`): 
-  - [YOLO 학습 가이드](docs/02_guides/01_yolo_training_guide.md)
-  - [추론 가이드](docs/02_guides/02_inference_guide.md)
-- **분석 문서** (`docs/03_analysis/`): 프로젝트 구조 분석
-- **참고 자료** (`docs/04_reference/`): 프로젝트 개요, 모듈 비교, 기술 용어집 등
+- **사용 가이드** (`docs/01_guides/`): 
+  - [YOLO 학습 가이드](docs/01_guides/01_yolo_training_guide.md)
+  - [추론 가이드](docs/01_guides/02_inference_guide.md)
+- **참고 자료** (`docs/02_reference/`): 프로젝트 개요, 모듈 비교, 기술 용어집 등
 
 ## 📄 라이선스
 
