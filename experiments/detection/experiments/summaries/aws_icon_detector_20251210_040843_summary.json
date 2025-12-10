@@ -1,0 +1,15 @@
+{
+  "study_name": "aws_icon_detector_20251210_040843",
+  "timestamp": "20251210_040843",
+  "n_trials": 50,
+  "best_value": 0.8047775909406396,
+  "best_params": {
+    "lr0": 0.0029800015102175617,
+    "lrf": 0.06365057071279445,
+    "weight_decay": 0.00038752564033965115,
+    "optimizer": "AdamW",
+    "momentum": 0.9579750647686242,
+    "patience": 50.0
+  },
+  "best_trial_number": 14
+}
