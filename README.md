@@ -156,10 +156,6 @@ python scripts/predict_yolo_cls.py \
 - [CLIP 모델](https://github.com/openai/CLIP)
 - [OpenCLIP](https://github.com/mlfoundations/open_clip)
 
-## 📞 지원
-
-문제가 발생하거나 질문이 있으시면 이슈를 생성해 주세요.
-
 ---
 
 ```
