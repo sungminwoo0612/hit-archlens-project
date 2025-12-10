@@ -59,32 +59,51 @@ AWS 아이콘 분류를 위한 YOLO 모델 학습 및 사용 방법입니다.
 
 ### 빠른 시작
 
+#### 1. 환경 설정
+
 ```bash
-# 1. 환경 설정
 conda activate archlens
 ./scripts/setup_yolo_env.sh
+```
 
-# 2. 데이터셋 준비 (아직 안 했다면)
+#### 2. 데이터셋 준비
+
+라벨링 작업: Label Studio를 사용하여 AWS 다이어그램에서 아이콘 위치 및 클래스 라벨링
+
+**라벨링 작업 화면**: [라벨링 작업 화면](archlens_라벨링.png)
+
+```bash
 python scripts/prepare_yolo_dataset.py --mode fine
+```
 
-# 3. 모델 학습
+#### 3. 모델 학습
+
+```bash
 python scripts/train_yolo_cls.py --mode fine --epochs 100 --imgsz 256
+```
 
-# 4. 모델 평가
+#### 4. 모델 평가
+
+```bash
 python scripts/eval_yolo_cls.py \
     --model runs/classify/fine_cls_*/weights/best.pt \
     --mode fine \
     --split test
+```
 
-# 5. 이미지 예측
-# 단일 이미지
+#### 5. 이미지 예측
+
+**단일 이미지:**
+```bash
 python scripts/predict_yolo_cls.py \
     --model runs/classify/fine_cls_yolov8n-cls/weights/best.pt \
     --source "dataset/icons/images/fine/amazon s3/Arch_Amazon-S3_64.png" \
     --mode fine \
     --top-k 5
+```
 
-# 디렉터리 전체
+**디렉터리 전체:**
+```bash
 python scripts/predict_yolo_cls.py \
     --model runs/classify/fine_cls_yolov8n-cls/weights/best.pt \
     --source "dataset/icons/images/fine/amazon s3" \
