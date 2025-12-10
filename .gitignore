@@ -28,6 +28,7 @@ env/
 ENV/
 .venv/
 .env/
+**/.venv/
 
 # IDE
 .vscode/
@@ -108,6 +109,23 @@ celerybeat.pid
 .dmypy.json
 dmypy.json
 
-# YOLO model weights (except weights/ folder)
+# YOLO model weights
 *.pt
+# 기본 weights 폴더의 가중치는 포함
 !weights/*.pt
+# experiments의 weights 폴더 가중치는 포함
+!experiments/*/weights/*.pt
+# 실험 결과 runs 폴더의 가중치는 제외 (너무 큼)
+experiments/*/runs/**/weights/*.pt
+
+# 실험 결과 캐시 파일
+*.cache
+experiments/**/*.cache
+
+# Optuna 데이터베이스 (선택사항 - 필요시 주석 해제)
+# experiments/**/*.db
+
+# 대용량 데이터 파일
+data/Asset-Package*.zip
+data/**/__MACOSX/
+data/**/*.zip
