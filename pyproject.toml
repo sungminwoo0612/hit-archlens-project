@@ -22,6 +22,7 @@ dependencies = [
     "open-clip-torch>=2.20.0",
     "faiss-cpu>=1.7.4",  # 또는 faiss-gpu
     "easyocr>=1.7.0",
+    "ultralytics>=8.0.0",  # YOLOv8, YOLOv9, YOLOv10 등
     
     # Language Models
     "openai>=1.0.0",
