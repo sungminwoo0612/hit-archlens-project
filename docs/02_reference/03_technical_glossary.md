@@ -1,4 +1,4 @@
-# Hit ArchLens 기술 용어집
+# ArchLens 기술 용어집
 
 ## 🔍 **Computer Vision (CV)**
 
@@ -157,11 +157,9 @@
 ### **Abstract Base Classes (ABC)**
 - **정의**: 추상 메서드를 포함한 기본 클래스
 - **목적**: 인터페이스 정의, 다형성 구현
-- **예시**: `BaseAutoLabeler`, `BaseDataCollector`
 
 ### **Strategy Pattern**
 - **정의**: 알고리즘을 캡슐화하여 런타임에 교체 가능
-- **사용처**: 클라우드별 오토라벨링 전략
 - **장점**: 확장성, 유지보수성
 
 ### **Factory Pattern**
