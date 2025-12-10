@@ -2,6 +2,14 @@
 
 AWS 아키텍처 다이어그램 분석을 위한 실험 프로젝트입니다. YOLO 모델을 사용하여 AWS 서비스 아이콘을 자동으로 분류하고 탐지합니다.
 
+## 📸 실험 결과 미리보기
+
+### Classification 실험 예측 결과
+![Classification 예측 결과](experiments/classification/runs/classify/yolo-cls16/val_batch0_pred.jpg)
+
+### Detection 실험 예측 결과
+![Detection 예측 결과](experiments/detection/runs/aws_icon_detector_trial_49/val_batch0_pred.jpg)
+
 ## 🎯 주요 기능
 
 - **YOLO Classification**: AWS 아이콘 이미지를 클래스로 분류
@@ -136,6 +144,25 @@ python scripts/predict_yolo_cls.py \
 
 더 자세한 실험 결과는 [experiments/README.md](experiments/README.md)를 참고하세요.
 
+### 최고 성능 실험: YOLO Detection (aws_icon_detector_trial_49)
+
+최고 성능을 달성한 YOLO Detection 실험 결과입니다.
+
+**시각화 결과:**
+
+| 항목 | 이미지 |
+|------|--------|
+| 학습 곡선 | [Results](experiments/detection/runs/aws_icon_detector_trial_49/results.png) |
+| Confusion Matrix | [Confusion Matrix](experiments/detection/runs/aws_icon_detector_trial_49/confusion_matrix.png) |
+| 정규화된 Confusion Matrix | [Normalized CM](experiments/detection/runs/aws_icon_detector_trial_49/confusion_matrix_normalized.png) |
+| Precision 곡선 | [BoxP Curve](experiments/detection/runs/aws_icon_detector_trial_49/BoxP_curve.png) |
+| Recall 곡선 | [BoxR Curve](experiments/detection/runs/aws_icon_detector_trial_49/BoxR_curve.png) |
+| F1 Score 곡선 | [BoxF1 Curve](experiments/detection/runs/aws_icon_detector_trial_49/BoxF1_curve.png) |
+| Precision-Recall 곡선 | [BoxPR Curve](experiments/detection/runs/aws_icon_detector_trial_49/BoxPR_curve.png) |
+| 검증 예측 결과 (Batch 0) | [Val Batch 0](experiments/detection/runs/aws_icon_detector_trial_49/val_batch0_pred.jpg) |
+| 검증 예측 결과 (Batch 1) | [Val Batch 1](experiments/detection/runs/aws_icon_detector_trial_49/val_batch1_pred.jpg) |
+| 검증 예측 결과 (Batch 2) | [Val Batch 2](experiments/detection/runs/aws_icon_detector_trial_49/val_batch2_pred.jpg) |
+
 ## 📚 문서
 
 프로젝트의 모든 문서는 `docs/` 디렉터리에 체계적으로 정리되어 있습니다.
@@ -144,10 +171,6 @@ python scripts/predict_yolo_cls.py \
   - [YOLO 학습 가이드](docs/01_guides/01_yolo_training_guide.md)
   - [추론 가이드](docs/01_guides/02_inference_guide.md)
 - **참고 자료** (`docs/02_reference/`): 프로젝트 개요, 모듈 비교, 기술 용어집 등
-
-## 📄 라이선스
-
-이 프로젝트는 MIT 라이선스 하에 배포됩니다.
 
 ## 🔗 관련 링크
 
