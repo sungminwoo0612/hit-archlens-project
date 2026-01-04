@@ -154,6 +154,12 @@ data/project-*.zip
 !README.md
 !docs/**/*.png
 !docs/**/*.jpg
+# README에서 사용하는 실험 결과 이미지 예외
+!experiments/classification/runs/classify/yolo-cls16/val_batch0_pred.jpg
+!experiments/classification/runs/classify/yolo-cls16/val_batch1_pred.jpg
+!experiments/detection/runs/aws_icon_detector_trial_49/val_batch0_pred.jpg
+!experiments/detection/runs/aws_icon_detector_trial_49/val_batch1_pred.jpg
+!experiments/detection/runs/aws_icon_detector_trial_49/val_batch2_pred.jpg
 
 # PDF 및 문서 파일
 *.pdf
