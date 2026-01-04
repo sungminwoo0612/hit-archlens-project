@@ -1,21 +1,34 @@
 # ArchLens
 
-AWS 아키텍처 다이어그램 분석을 위한 실험 프로젝트입니다. YOLO 모델을 사용하여 AWS 서비스 아이콘을 자동으로 분류하고 탐지합니다.
+AWS 아키텍처 다이어그램 분석을 위한 실험 프로젝트입니다. YOLO 모델을 사용하여:
+- **Classification**: 개별 서비스 아이콘 이미지를 클래스로 분류
+- **Detection**: 아키텍처 다이어그램에서 아이콘 위치를 탐지
+
+두 가지 작업을 통해 다이어그램을 자동으로 분석합니다.
 
 ## 📸 실험 결과 미리보기
 
 ### Classification 실험 예측 결과
+**입력**: 개별 서비스 아이콘 이미지 (64x64 픽셀)  
+**출력**: 서비스 클래스 예측 (Top-5)
 <img src="experiments/classification/runs/classify/yolo-cls16/val_batch0_pred.jpg" alt="Classification 예측 결과" width="85%">
 
 ### Detection 실험 예측 결과
+**입력**: AWS 아키텍처 다이어그램 (여러 아이콘 포함)  
+**출력**: 바운딩 박스로 표시된 아이콘 위치 및 서비스 클래스
 <img src="experiments/detection/runs/aws_icon_detector_trial_14/val_batch0_pred.jpg" alt="Detection 예측 결과" width="85%">
 
 > 💡 **참고**: 실험 결과 이미지는 로컬에서 확인하거나, [experiments/README.md](experiments/README.md)를 참고하세요.
 
 ## 🎯 주요 기능
 
-- **YOLO Classification**: AWS 아이콘 이미지를 클래스로 분류
-- **YOLO Detection**: AWS 아키텍처 다이어그램에서 아이콘 위치 탐지
+- **YOLO Classification**: 개별 AWS 서비스 아이콘 이미지를 입력받아 "무슨 서비스인가?"를 분류
+  - 입력: 단일 아이콘 이미지 (예: S3 아이콘 1개, 64x64 픽셀)
+  - 출력: 서비스 클래스 및 신뢰도 (예: "Amazon S3: 92.3%")
+  
+- **YOLO Detection**: AWS 아키텍처 다이어그램 전체를 입력받아 "어디에 어떤 아이콘이 있는가?"를 탐지
+  - 입력: 아키텍처 다이어그램 이미지 (여러 아이콘이 포함된 큰 이미지)
+  - 출력: 바운딩 박스 좌표 + 서비스 클래스 (각 아이콘의 위치와 종류)
 - **실험 결과 시각화**: 학습 곡선, Confusion Matrix, 예측 결과 시각화
 
 ## 🏗️ 아키텍처
@@ -55,9 +68,39 @@ uv run archlens analyze <이미지_경로> --output runs/demo
 
 ## 📁 출력 구조
 
+`archlens analyze` 또는 `archlens demo` 실행 후 생성되는 파일 구조:
+
+```
+runs/demo/
+├── demo_result.json                    # 데모 분석 결과 (JSON)
+└── hybrid_results_conf_0_5/            # analyze 명령어 출력 (임계값별)
+    ├── analysis_result_000.json        # 개별 이미지 분석 결과
+    ├── visualizations/                  # 시각화 결과
+    │   ├── confidence_distribution.png
+    │   ├── service_distribution.png
+    │   ├── processing_time.png
+    │   ├── detection_counts.png
+    │   ├── normalization_success_rate.png
+    │   ├── detection_status_distribution.png
+    │   └── {image_name}_detections.jpg # 바운딩 박스가 그려진 이미지
+    └── evaluation/                      # 평가 결과 (여러 임계값 사용 시)
+        └── threshold_analysis/
+            └── hybrid_threshold_summary.csv
+```
+
+**주요 출력 파일 설명**:
+- `demo_result.json`: 단일 이미지 분석 결과 (서비스명, 신뢰도, 바운딩 박스 좌표)
+- `analysis_result_*.json`: 배치 분석 시 각 이미지별 결과
+- `*_detections.jpg`: 원본 이미지에 바운딩 박스와 레이블이 그려진 시각화 결과
+
 ## 🎯 YOLO Classification 학습
 
-AWS 아이콘 분류를 위한 YOLO 모델 학습 및 사용 방법입니다.
+**목적**: 개별 AWS 서비스 아이콘 이미지를 입력받아 서비스 클래스를 분류하는 모델 학습
+
+**사용 사례**: 
+- 아이콘 이미지 1개가 주어졌을 때 "이게 무슨 AWS 서비스인가?"를 판단
+- 입력: 단일 아이콘 이미지 (예: `Arch_Amazon-S3_64.png`)
+- 출력: 서비스 클래스 및 신뢰도 (예: "Amazon S3: 92.3%")
 
 ### 빠른 시작
 
@@ -116,8 +159,11 @@ uv run python scripts/predict_yolo_cls.py \
 최고 성능을 달성한 YOLO Classification 실험 결과입니다.
 
 **성능 지표:**
-- Top-1 Accuracy: 높은 정확도 달성
-- Top-5 Accuracy: 우수한 성능
+- Top-1 Accuracy: 20.83%
+- Top-5 Accuracy: 75.00%
+- Validation Loss: 2.375
+- 클래스 수: 64개 (fine-grained)
+- 데이터 분할: Train 447 / Val 96 / Test 96
 
 **시각화 결과:**
 
@@ -136,6 +182,12 @@ uv run python scripts/predict_yolo_cls.py \
 
 최고 성능을 달성한 YOLO Detection 실험 결과입니다.
 
+**성능 지표:**
+- mAP50-95: 80.48%
+- 최적 하이퍼파라미터: Learning Rate 0.00298, Optimizer AdamW
+- 클래스 수: 119개 AWS 서비스
+- 데이터셋: ~1,000개 이미지
+
 **시각화 결과:**
 
 #### 학습 곡선
@@ -152,6 +204,17 @@ uv run python scripts/predict_yolo_cls.py \
 
 #### 검증 예측 결과
 <img src="experiments/detection/runs/aws_icon_detector_trial_14/val_batch0_pred.jpg" alt="검증 예측 결과" width="85%">
+
+## 🔍 YOLO Detection 학습
+
+**목적**: AWS 아키텍처 다이어그램 전체에서 아이콘의 위치와 종류를 탐지하는 모델 학습
+
+**사용 사례**:
+- 아키텍처 다이어그램 이미지가 주어졌을 때 "어디에 어떤 서비스 아이콘이 있는가?"를 탐지
+- 입력: 아키텍처 다이어그램 이미지 (여러 아이콘이 포함된 큰 이미지)
+- 출력: 바운딩 박스 좌표 + 서비스 클래스 (각 아이콘의 위치와 종류)
+
+더 자세한 내용은 [experiments/README.md](experiments/README.md)를 참고하세요.
 
 ## 📚 문서
 
