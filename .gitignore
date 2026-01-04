@@ -81,8 +81,8 @@ coverage.xml
 .ipynb_checkpoints
 *.ipynb
 
-# pyenv
-.python-version
+# pyenv (프로젝트에서 Python 버전 명시를 위해 포함)
+# .python-version
 
 # pipenv
 Pipfile.lock
@@ -174,3 +174,6 @@ data/**/*.json
 data/**/*.csv
 !data/aws/**/*.json
 !data/aws/**/*.csv
+
+# requirements.txt (uv export로 자동 생성)
+requirements.txt

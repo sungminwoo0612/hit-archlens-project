@@ -30,33 +30,22 @@ ArchLens/
 ```
 
 
-## 🚀 빠른 시작
-
-### 1. 환경 설정
+## 🚀 빠른 시작 (uv)
 
 ```bash
-# 저장소 클론
-git clone <repository-url>
-cd hit_archlens
-
-# 가상환경 생성 및 활성화
-python3 -m venv venv
-source venv/bin/activate  # Linux/Mac
-# 또는 venv\Scripts\activate  # Windows
-
-# 의존성 설치
-pip install -r requirements.txt
+git clone https://github.com/sungminwoo0612/hit-archlens-project.git
+cd hit-archlens-project
+uv sync
+uv run archlens analyze <이미지_경로> --output runs/demo
 ```
 
-### 2. AWS 아이콘 다운로드
+**요구사항:**
+- Python: 3.10+ (3.11+ 권장)
+- uv: [설치 가이드](https://docs.astral.sh/uv/)
 
-```bash
-# AWS 공식 아키텍처 아이콘 다운로드
-wget https://d1.awsstatic.com/webteam/architecture-icons/q1-2024/Asset-Package_01242024.7c4f8b8b.zip -O Asset-Package.zip
-
-# 또는 AWS 공식 사이트에서 수동 다운로드:
-# https://aws.amazon.com/ko/architecture/icons/
-```
+> 💡 **다른 환경 관리 도구 사용하기**: conda를 사용하려면 [docs/setup_conda.md](docs/setup_conda.md)를 참고하세요.
+> 
+> 📝 **requirements.txt**: `requirements.txt`는 `uv export -o requirements.txt`로 자동 생성됩니다. 저장소에는 포함되지 않습니다.
 
 
 ## 📁 출력 구조
@@ -67,43 +56,36 @@ AWS 아이콘 분류를 위한 YOLO 모델 학습 및 사용 방법입니다.
 
 ### 빠른 시작
 
-#### 1. 환경 설정
-
-```bash
-conda activate archlens
-./scripts/setup_yolo_env.sh
-```
-
-#### 2. 데이터셋 준비
+#### 1. 데이터셋 준비
 
 라벨링 작업: Label Studio를 사용하여 AWS 다이어그램에서 아이콘 위치 및 클래스 라벨링
 
 **라벨링 작업 화면**: [라벨링 작업 화면](archlens_라벨링.png)
 
 ```bash
-python scripts/prepare_yolo_dataset.py --mode fine
+uv run python scripts/prepare_yolo_dataset.py --mode fine
 ```
 
-#### 3. 모델 학습
+#### 2. 모델 학습
 
 ```bash
-python scripts/train_yolo_cls.py --mode fine --epochs 100 --imgsz 256
+uv run python scripts/train_yolo_cls.py --mode fine --epochs 100 --imgsz 256
 ```
 
-#### 4. 모델 평가
+#### 3. 모델 평가
 
 ```bash
-python scripts/eval_yolo_cls.py \
+uv run python scripts/eval_yolo_cls.py \
     --model runs/classify/fine_cls_*/weights/best.pt \
     --mode fine \
     --split test
 ```
 
-#### 5. 이미지 예측
+#### 4. 이미지 예측
 
 **단일 이미지:**
 ```bash
-python scripts/predict_yolo_cls.py \
+uv run python scripts/predict_yolo_cls.py \
     --model runs/classify/fine_cls_yolov8n-cls/weights/best.pt \
     --source "dataset/icons/images/fine/amazon s3/Arch_Amazon-S3_64.png" \
     --mode fine \
@@ -112,7 +94,7 @@ python scripts/predict_yolo_cls.py \
 
 **디렉터리 전체:**
 ```bash
-python scripts/predict_yolo_cls.py \
+uv run python scripts/predict_yolo_cls.py \
     --model runs/classify/fine_cls_yolov8n-cls/weights/best.pt \
     --source "dataset/icons/images/fine/amazon s3" \
     --mode fine \
@@ -178,17 +160,3 @@ python scripts/predict_yolo_cls.py \
 - [OpenAI API 문서](https://platform.openai.com/docs/)
 - [CLIP 모델](https://github.com/openai/CLIP)
 - [OpenCLIP](https://github.com/mlfoundations/open_clip)
-
----
-
-```
-conda create -n archlens python=3.11 -y
-conda activate archlens
-which python ; which python3 ; which pip ; which pip3
-conda install ipykernel -y
-python -m ipykernel install --user --name archlens --display-name "(archlens)"
-jupyter kernelspec list | grep archlens
-pip install pandas jupyterlab ipython
-pip install -r requirements.txt
-
-```
