@@ -10,6 +10,8 @@ AWS 아키텍처 다이어그램 분석을 위한 실험 프로젝트입니다. 
 ### Detection 실험 예측 결과
 ![Detection 예측 결과](experiments/detection/runs/aws_icon_detector_trial_49/val_batch0_pred.jpg)
 
+> 💡 **참고**: 실험 결과 이미지는 로컬에서 확인하거나, [experiments/README.md](experiments/README.md)를 참고하세요.
+
 ## 🎯 주요 기능
 
 - **YOLO Classification**: AWS 아이콘 이미지를 클래스로 분류
@@ -116,13 +118,13 @@ uv run python scripts/predict_yolo_cls.py \
 
 **시각화 결과:**
 
-| 항목 | 이미지 |
-|------|--------|
-| 학습 곡선 | [Results](experiments/classification/runs/classify/yolo-cls16/results.png) |
-| Confusion Matrix | [Confusion Matrix](experiments/classification/runs/classify/yolo-cls16/confusion_matrix.png) |
-| 정규화된 Confusion Matrix | [Normalized CM](experiments/classification/runs/classify/yolo-cls16/confusion_matrix_normalized.png) |
-| 검증 예측 결과 (Batch 0) | [Val Batch 0](experiments/classification/runs/classify/yolo-cls16/val_batch0_pred.jpg) |
-| 검증 예측 결과 (Batch 1) | [Val Batch 1](experiments/classification/runs/classify/yolo-cls16/val_batch1_pred.jpg) |
+| 항목 | 경로 |
+|------|------|
+| 학습 곡선 | `experiments/classification/runs/classify/yolo-cls16/results.png` |
+| Confusion Matrix | `experiments/classification/runs/classify/yolo-cls16/confusion_matrix.png` |
+| 정규화된 Confusion Matrix | `experiments/classification/runs/classify/yolo-cls16/confusion_matrix_normalized.png` |
+| 검증 예측 결과 (Batch 0) | `experiments/classification/runs/classify/yolo-cls16/val_batch0_pred.jpg` |
+| 검증 예측 결과 (Batch 1) | `experiments/classification/runs/classify/yolo-cls16/val_batch1_pred.jpg` |
 
 더 자세한 실험 결과는 [experiments/README.md](experiments/README.md)를 참고하세요.
 
@@ -132,18 +134,18 @@ uv run python scripts/predict_yolo_cls.py \
 
 **시각화 결과:**
 
-| 항목 | 이미지 |
-|------|--------|
-| 학습 곡선 | [Results](experiments/detection/runs/aws_icon_detector_trial_49/results.png) |
-| Confusion Matrix | [Confusion Matrix](experiments/detection/runs/aws_icon_detector_trial_49/confusion_matrix.png) |
-| 정규화된 Confusion Matrix | [Normalized CM](experiments/detection/runs/aws_icon_detector_trial_49/confusion_matrix_normalized.png) |
-| Precision 곡선 | [BoxP Curve](experiments/detection/runs/aws_icon_detector_trial_49/BoxP_curve.png) |
-| Recall 곡선 | [BoxR Curve](experiments/detection/runs/aws_icon_detector_trial_49/BoxR_curve.png) |
-| F1 Score 곡선 | [BoxF1 Curve](experiments/detection/runs/aws_icon_detector_trial_49/BoxF1_curve.png) |
-| Precision-Recall 곡선 | [BoxPR Curve](experiments/detection/runs/aws_icon_detector_trial_49/BoxPR_curve.png) |
-| 검증 예측 결과 (Batch 0) | [Val Batch 0](experiments/detection/runs/aws_icon_detector_trial_49/val_batch0_pred.jpg) |
-| 검증 예측 결과 (Batch 1) | [Val Batch 1](experiments/detection/runs/aws_icon_detector_trial_49/val_batch1_pred.jpg) |
-| 검증 예측 결과 (Batch 2) | [Val Batch 2](experiments/detection/runs/aws_icon_detector_trial_49/val_batch2_pred.jpg) |
+| 항목 | 경로 |
+|------|------|
+| 학습 곡선 | `experiments/detection/runs/aws_icon_detector_trial_49/results.png` |
+| Confusion Matrix | `experiments/detection/runs/aws_icon_detector_trial_49/confusion_matrix.png` |
+| 정규화된 Confusion Matrix | `experiments/detection/runs/aws_icon_detector_trial_49/confusion_matrix_normalized.png` |
+| Precision 곡선 | `experiments/detection/runs/aws_icon_detector_trial_49/BoxP_curve.png` |
+| Recall 곡선 | `experiments/detection/runs/aws_icon_detector_trial_49/BoxR_curve.png` |
+| F1 Score 곡선 | `experiments/detection/runs/aws_icon_detector_trial_49/BoxF1_curve.png` |
+| Precision-Recall 곡선 | `experiments/detection/runs/aws_icon_detector_trial_49/BoxPR_curve.png` |
+| 검증 예측 결과 (Batch 0) | `experiments/detection/runs/aws_icon_detector_trial_49/val_batch0_pred.jpg` |
+| 검증 예측 결과 (Batch 1) | `experiments/detection/runs/aws_icon_detector_trial_49/val_batch1_pred.jpg` |
+| 검증 예측 결과 (Batch 2) | `experiments/detection/runs/aws_icon_detector_trial_49/val_batch2_pred.jpg` |
 
 ## 📚 문서
 
