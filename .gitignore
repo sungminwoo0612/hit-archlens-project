@@ -45,6 +45,7 @@ ENV/
 .Trashes
 ehthumbs.db
 Thumbs.db
+__MACOSX/
 
 # Logs
 *.log
@@ -65,6 +66,7 @@ yarn-error.log*
 *.tmp
 *.temp
 .cache/
+cache/
 
 # Coverage reports
 htmlcov/
@@ -77,6 +79,7 @@ coverage.xml
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
 
 # pyenv
 .python-version
@@ -109,23 +112,65 @@ celerybeat.pid
 .dmypy.json
 dmypy.json
 
-# YOLO model weights
+# ============================================
+# 프로젝트별 대용량 파일 제외
+# ============================================
+
+# YOLO 모델 가중치 (실험 결과 제외, 최종 모델만 포함)
 *.pt
-# 기본 weights 폴더의 가중치는 포함
-!weights/*.pt
-# experiments의 weights 폴더 가중치는 포함
 !experiments/*/weights/*.pt
-# 실험 결과 runs 폴더의 가중치는 제외 (너무 큼)
-experiments/*/runs/**/weights/*.pt
+experiments/*/runs/**/*.pt
 
-# 실험 결과 캐시 파일
-*.cache
+# 실험 결과 디렉터리 (이미지, 로그, 메트릭 등)
+experiments/*/runs/
+experiments/*/data/
 experiments/**/*.cache
+experiments/**/*.db
 
-# Optuna 데이터베이스 (선택사항 - 필요시 주석 해제)
-# experiments/**/*.db
+# 캐시 파일
+*.pkl
+*.cache
+cache/
 
 # 대용량 데이터 파일
 data/Asset-Package*.zip
-data/**/__MACOSX/
-data/**/*.zip
+data/Asset-Package*/
+data/outputs/
+data/images/
+data/labels/
+data/yolo_diagrams/
+data/project-*.zip
+
+# 이미지 파일 (README에 사용되는 작은 이미지 제외)
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.webp
+*.gif
+*.bmp
+*.ico
+!archlens_라벨링.png
+!README.md
+!docs/**/*.png
+!docs/**/*.jpg
+
+# PDF 및 문서 파일
+*.pdf
+
+# 아카이브 파일
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+archive/
+
+# 노트북 출력 파일
+experiments/*/notebooks/*.ipynb
+
+# 통계 및 결과 JSON (대용량)
+data/**/*.json
+data/**/*.csv
+!data/aws/**/*.json
+!data/aws/**/*.csv
