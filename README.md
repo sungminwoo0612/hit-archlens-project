@@ -11,7 +11,7 @@ AWS 아키텍처 다이어그램 분석을 위한 실험 프로젝트입니다. 
 ### Classification 실험 예측 결과
 **입력**: 개별 서비스 아이콘 이미지 (64x64 픽셀)  
 **출력**: 서비스 클래스 예측 (Top-5)
-<img src="experiments/classification/runs/classify/yolo-cls16/val_batch0_pred.jpg" alt="Classification 예측 결과" width="85%">
+<img src="experiments/classification/runs/classify/yolo-cls16/val_batch0_pred.jpg" alt="Classification 예측 결과" width="65%">
 
 ### Detection 실험 예측 결과
 **입력**: AWS 아키텍처 다이어그램 (여러 아이콘 포함)  
