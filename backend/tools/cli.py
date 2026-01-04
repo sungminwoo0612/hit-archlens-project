@@ -624,6 +624,78 @@ def visualize(config, input, output, verbose):
               type=click.Choice(['cv', 'llm', 'hybrid']),
               default='hybrid',
               help='분석 방법')
+@click.option('--output', '-o', default='runs/demo',
+              help='출력 디렉터리')
+@click.option('--verbose', '-v', is_flag=True,
+              help='상세 출력')
+def demo(config, method, output, verbose):
+    """
+    데모 실행
+    
+    기본 데모 이미지로 빠른 테스트를 실행합니다.
+    """
+    demo_image = Path("assets/demo_diagram.jpg")
+    
+    if not demo_image.exists():
+        click.echo(f"❌ 데모 이미지를 찾을 수 없습니다: {demo_image}")
+        click.echo("💡 assets/demo_diagram.jpg 파일이 필요합니다.")
+        return
+    
+    click.echo(f"🚀 데모 실행 중...")
+    click.echo(f"   입력: {demo_image}")
+    click.echo(f"   방법: {method}")
+    click.echo(f"   출력: {output}\n")
+    
+    # analyze 함수를 직접 호출
+    try:
+        config_data = load_config(config)
+        
+        # LLM API 키 환경 변수에서 로드
+        if "llm" in config_data:
+            if "api_key" in config_data["llm"] and config_data["llm"]["api_key"].startswith("${") and config_data["llm"]["api_key"].endswith("}"):
+                env_var_name = config_data["llm"]["api_key"][2:-1]
+                config_data["llm"]["api_key"] = os.getenv(env_var_name, config_data["llm"]["api_key"])
+        
+        # 단일 임계값으로 분석 (데모용)
+        threshold_list = [0.5]
+        
+        from ..core.providers.aws import AWSHybridAutoLabeler
+        labeler = AWSHybridAutoLabeler(config_data)
+        
+        output_dir = Path(output)
+        output_dir.mkdir(parents=True, exist_ok=True)
+        
+        # 이미지 분석
+        result = labeler.analyze_image(demo_image, confidence_threshold=threshold_list[0])
+        
+        if result.success:
+            click.echo(f"✅ 분석 완료!")
+            click.echo(f"   감지된 서비스 수: {len(result.detections)}")
+            if result.detections:
+                click.echo(f"   첫 번째 감지: {result.detections[0].service_name} (신뢰도: {result.detections[0].confidence:.3f})")
+            
+            # 결과 저장
+            result_path = output_dir / "demo_result.json"
+            with open(result_path, 'w', encoding='utf-8') as f:
+                json.dump(result.to_dict(), f, indent=2, ensure_ascii=False)
+            click.echo(f"   결과 저장: {result_path}")
+        else:
+            click.echo(f"⚠️ 분석 실패: {result.error_message}")
+            
+    except Exception as e:
+        click.echo(f"❌ 데모 실행 실패: {e}")
+        if verbose:
+            import traceback
+            traceback.print_exc()
+
+
+@cli.command()
+@click.option('--config', '-c', default='backend/configs/default.yaml',
+              help='설정 파일 경로')
+@click.option('--method', '-m',
+              type=click.Choice(['cv', 'llm', 'hybrid']),
+              default='hybrid',
+              help='분석 방법')
 @click.option('--verbose', '-v', is_flag=True,
               help='상세 출력')
 def status(config, method, verbose):

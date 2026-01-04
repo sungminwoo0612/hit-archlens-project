@@ -38,6 +38,11 @@ ArchLens/
 git clone https://github.com/sungminwoo0612/hit-archlens-project.git
 cd hit-archlens-project
 uv sync
+uv run archlens demo
+```
+
+**또는 직접 이미지 분석:**
+```bash
 uv run archlens analyze <이미지_경로> --output runs/demo
 ```
 
@@ -46,8 +51,6 @@ uv run archlens analyze <이미지_경로> --output runs/demo
 - uv: [설치 가이드](https://docs.astral.sh/uv/)
 
 > 💡 **다른 환경 관리 도구 사용하기**: conda를 사용하려면 [docs/setup_conda.md](docs/setup_conda.md)를 참고하세요.
-> 
-> 📝 **requirements.txt**: `requirements.txt`는 `uv export -o requirements.txt`로 자동 생성됩니다. 저장소에는 포함되지 않습니다.
 
 
 ## 📁 출력 구조
