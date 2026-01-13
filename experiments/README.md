@@ -65,27 +65,27 @@ AWS 아키텍처 다이어그램에서 아이콘의 위치를 바운딩 박스�
 
 #### 학습 곡선
 <img src="detection/runs/aws_icon_detector_trial_14/results.png" alt="학습 곡선" width="85%">
-*Detection 모델의 학습 과정. mAP50-95가 80.48%에 도달하여 높은 탐지 정확도를 보여줍니다. Precision, Recall, mAP50, mAP50-95 등의 지표가 에포크에 따라 개선되는 것을 확인할 수 있습니다.*
+Detection 모델의 학습 과정. mAP50-95가 80.48%에 도달하여 높은 탐지 정확도를 보여줍니다. Precision, Recall, mAP50, mAP50-95 등의 지표가 에포크에 따라 개선되는 것을 확인할 수 있습니다.
 
 #### Precision-Recall 곡선
 <img src="detection/runs/aws_icon_detector_trial_14/BoxPR_curve.png" alt="PR 곡선" width="85%">
-*Precision-Recall 곡선. 곡선 아래 면적(AUC)이 클수록 모델의 성능이 우수함을 나타냅니다. 119개 클래스에 대한 평균 PR 곡선을 보여줍니다.*
+Precision-Recall 곡선. 곡선 아래 면적(AUC)이 클수록 모델의 성능이 우수함을 나타냅니다. 119개 클래스에 대한 평균 PR 곡선을 보여줍니다.
 
 #### F1 Score 곡선
 <img src="detection/runs/aws_icon_detector_trial_14/BoxF1_curve.png" alt="F1 곡선" width="85%">
-*F1 Score 곡선. Precision과 Recall의 조화 평균으로, 최적의 confidence threshold를 찾는 데 유용합니다. Confidence threshold에 따른 F1 Score 변화를 확인할 수 있습니다.*
+F1 Score 곡선. Precision과 Recall의 조화 평균으로, 최적의 confidence threshold를 찾는 데 유용합니다. Confidence threshold에 따른 F1 Score 변화를 확인할 수 있습니다.
 
 #### Confusion Matrix
 <img src="detection/runs/aws_icon_detector_trial_14/confusion_matrix_normalized.png" alt="Confusion Matrix" width="85%">
-*119개 클래스에 대한 정규화된 혼동 행렬. 클래스 간 혼동 패턴을 시각적으로 확인할 수 있습니다. 유사한 서비스들(예: EC2, ECS, EKS) 간의 혼동이 발생할 수 있음을 보여줍니다.*
+119개 클래스에 대한 정규화된 혼동 행렬. 클래스 간 혼동 패턴을 시각적으로 확인할 수 있습니다. 유사한 서비스들(예: EC2, ECS, EKS) 간의 혼동이 발생할 수 있음을 보여줍니다.
 
 #### 검증 결과 예시
 <img src="detection/runs/aws_icon_detector_trial_14/val_batch0_pred.jpg" alt="검증 배치 예측" width="85%">
-*검증 데이터셋에 대한 바운딩 박스 예측 결과. 각 아이콘의 위치와 클래스가 정확하게 탐지되었는지 확인할 수 있습니다. 바운딩 박스와 클래스 레이블이 표시되어 있습니다.*
+검증 데이터셋에 대한 바운딩 박스 예측 결과. 각 아이콘의 위치와 클래스가 정확하게 탐지되었는지 확인할 수 있습니다. 바운딩 박스와 클래스 레이블이 표시되어 있습니다.
 
 #### 학습 배치 예시
 <img src="detection/runs/aws_icon_detector_trial_14/train_batch0.jpg" alt="학습 배치" width="85%">
-*학습 중 사용된 배치 이미지 예시. 다양한 AWS 서비스 아이콘이 포함된 다이어그램을 보여줍니다. 실제 학습에 사용된 데이터의 다양성을 확인할 수 있습니다.*
+학습 중 사용된 배치 이미지 예시. 다양한 AWS 서비스 아이콘이 포함된 다이어그램을 보여줍니다. 실제 학습에 사용된 데이터의 다양성을 확인할 수 있습니다.
 
 ---
 
@@ -163,5 +163,5 @@ python train.py  # Optuna 최적화 포함 (50 trials)
 
 ---
 
-**마지막 업데이트**: 2025-01-XX
+**마지막 업데이트**: 2026-01-13
 
